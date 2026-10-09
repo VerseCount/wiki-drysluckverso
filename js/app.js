@@ -414,6 +414,19 @@ function closeWorld() {
 }
 
 /* Pestaña Universo: las historias de cada universo salen de data/universos.json */
+// "Basado en...": imágenes de proporción normal (3:4 y 16:9), centradas y ajustadas al espacio disponible
+function fitBase() {
+  const b = $('#uni-base'), t = $('.ub-top', b), d = $('.ub-desc', b);
+  if (!t || !d) return;
+  if (window.innerWidth <= 900) { t.removeAttribute('style'); d.removeAttribute('style'); return; }
+  const g = 18, wOf = H => 0.75 * H + g + (H - g) * 8 / 9;
+  let H = Math.max(240, b.clientHeight - 120 - g);
+  if (wOf(H) > b.clientWidth) H = Math.max(240, (b.clientWidth - g / 9) / 1.6389);
+  t.style.cssText = `width:${wOf(H)}px;height:${H}px;grid-template-columns:${0.75 * H}px 1fr`;
+  d.style.width = wOf(H) + 'px';
+}
+window.addEventListener('resize', () => { if (!$('#uni-base').hidden) fitBase(); });
+
 function renderUniverso(uid, sid, mode) {
   const us = S.universos || [];
   if (!us.length) return;
@@ -426,29 +439,33 @@ function renderUniverso(uid, sid, mode) {
   if (!ids.includes(S.uniStory)) S.uniStory = ids[0];
   const h = storyById(S.uniStory);
 
+  $('#uni-unis').innerHTML = us.map(x => `<div class="uni-grp">
+    <button class="uni-btn ${x.id === u.id && !base ? 'active' : ''}" data-uni="${esc(x.id)}">${esc(x.nombre || x.id)}</button>
+    <button class="uni-btn ${x.id === u.id && base ? 'active' : ''}" data-base="${esc(x.id)}">Basado en...</button></div>`).join('');
+  $('#uni-list').innerHTML = ids.map(id => {
+    const s = storyById(id);
+    return `<button class="uni-item ${id === S.uniStory && !base ? 'active' : ''}" data-story="${esc(id)}">${imgTag(s.icono, s.titulo)}<span>${esc(s.titulo)}</span></button>`;
+  }).join('') || '<p class="hint">Aún no hay historias en este universo.</p>';
   $('#uni-main').hidden = base;
   $('#uni-base').hidden = !base;
-  $('#uni-foot').innerHTML = us.map(x => `<div class="uni-grp">
-    <button class="uni-btn ${x.id === u.id && !base ? 'active' : ''}" data-uni="${esc(x.id)}">${esc(x.nombre || x.id)}</button>
-    <button class="uni-btn alt ${x.id === u.id && base ? 'active' : ''}" data-base="${esc(x.id)}">Basado en...</button></div>`).join('');
 
   if (base) {
     const b = u.basado_en || {};
-    const im = n => imgTag((b.imagenes || [])[n], `Imagen ${n + 1}`);
-    $('#uni-base').innerHTML = `<div class="ub-img a">${im(0)}</div><div class="ub-img b">${im(1)}</div><div class="ub-img c">${im(2)}</div>
+    const im = n => (b.imagenes || [])[n] ? imgTag(b.imagenes[n], `Imagen ${n + 1}`) : `<div class="ub-ph">Imagen ${n + 1}</div>`;
+    $('#uni-base').innerHTML = `<div class="ub-top"><div class="ub-img a">${im(0)}</div><div class="ub-img">${im(1)}</div><div class="ub-img">${im(2)}</div></div>
       <div class="ub-desc">${b.descripcion ? paragraphs(b.descripcion) : '<p class="hint">Aquí va la descripción de en qué se basa este universo.</p>'}</div>`;
+    fitBase();
     return;
   }
-
-  $('#uni-list').innerHTML = ids.map(id => {
-    const s = storyById(id);
-    return `<button class="uni-item ${id === S.uniStory ? 'active' : ''}" data-story="${esc(id)}">${imgTag(s.icono, s.titulo)}<span>${esc(s.titulo)}</span></button>`;
-  }).join('') || '<p class="hint">Aún no hay historias en este universo.</p>';
   if (!h) { $('#uni-card').innerHTML = ''; $('#uni-cover').innerHTML = ''; return; }
 
+  // El recuadro de la portada toma la proporción real de la imagen (sin espacios vacíos)
   const cv = $('#uni-cover');
-  cv.style.setProperty('--bg', `url(${JSON.stringify(h.portada || h.icono || '')})`);
+  cv.style.setProperty('--ar', '2 / 3');
   cv.innerHTML = imgTag(h.portada || h.icono, h.titulo);
+  const pic = cv.firstElementChild;
+  const ar = () => { if (pic.naturalWidth) cv.style.setProperty('--ar', `${pic.naturalWidth} / ${pic.naturalHeight}`); };
+  if (pic.complete) ar(); else pic.addEventListener('load', ar);
 
   const chars = S.personajes.filter(p => p.historia === h.id);
   $('#uni-card').innerHTML = `<h3>${esc(h.titulo)}</h3>
