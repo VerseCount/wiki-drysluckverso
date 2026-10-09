@@ -64,13 +64,12 @@ async function loadData() {
     return r.json();
   });
   const [cfg, historias, personajes, noticias, media, universos] = await Promise.all(
-    ['config', 'historias', 'personajes', 'noticias', 'media'].map(get)
-      .concat(get('universos').catch(() => ({ universos: [] })))
+    ['config', 'historias', 'personajes', 'noticias', 'media', 'universos'].map(get)
   );
-  S.universos = universos.universos || [];
   S.cfg = cfg;
   S.historias = historias.historias || [];
   S.gruposRaw = historias.conexiones_grupos || [];
+  S.universos = universos.universos || [];
   S.personajes = personajes.personajes || [];
   S.noticias = noticias.noticias || [];
   S.media = media.media || [];
@@ -92,8 +91,7 @@ function route() {
   const [v, arg, ch] = location.hash.slice(1).split('/');
   const view = showView(v);
   window.scrollTo(0, 0);
-  if (view === 'personajes') selectStory(arg && storyById(arg) ? arg : (S.storyId || S.historias[0]?.id), false);
-  if (view === 'personajes' && ch && charById(ch)) selectChar(ch);
+  if (view === 'personajes') { selectStory(arg && storyById(arg) ? arg : (S.storyId || S.historias[0]?.id), false); if (ch && charById(ch)) selectChar(ch); }
 }
 
 document.addEventListener('click', e => {
@@ -298,7 +296,8 @@ function showOpinion(targetId) {
    MULTIVERSO
    ============================================================ */
 function worldPos(h, i) {
-  return h.mapa || { x: 16 + (i * 23) % 68, y: 22 + (i * 31) % 56 };
+  const m = h.mapa || { x: 16 + (i * 23) % 68, y: 22 + (i * 31) % 56 };
+  return { x: 6 + m.x * 0.88, y: 9 + m.y * 0.78 }; // margen para que no se corten los nombres
 }
 
 /* Conexiones: cada "grupo" es un punto de tu documento (historias que se conectan entre sí).
@@ -343,7 +342,7 @@ function selectWorld(id, g) {
   const h = storyById(id);
   if (!h) return;
   S.worldId = id;
-  $('#mv-panel').hidden = false;
+  $('#mv-body').classList.add('open');
   const touches = e => e.a === id || e.b === id;
   const mine = S.grupos.map((_, i) => i).filter(i => S.grupos[i].edges.some(touches));
   const active = mine.includes(g) ? g : (mine.includes(S.activeGroup) ? S.activeGroup : mine[0]);
@@ -391,11 +390,43 @@ function selectWorld(id, g) {
 
 function closeWorld() {
   S.worldId = null;
-  $('#mv-panel').hidden = true;
-  $('#mv-hint').hidden = false;
+  $('#mv-body').classList.remove('open');
   $$('.node').forEach(n => n.classList.remove('active', 'dim'));
   $('#mv-lines').classList.remove('sel');
   $$('#mv-lines line').forEach(l => l.classList.remove('on'));
+}
+
+/* Pestaña Universo: las historias de cada universo salen de data/universos.json */
+function renderUniverso(uid, sid) {
+  const us = S.universos || [];
+  if (!us.length) return;
+  const u = us.find(x => x.id === (uid || S.uniId)) || us[0];
+  S.uniId = u.id;
+  const ids = (u.historias || []).filter(storyById);
+  if (sid) S.uniStory = sid;
+  if (!ids.includes(S.uniStory)) S.uniStory = ids[0];
+  const h = storyById(S.uniStory);
+
+  $('#uni-tabs').innerHTML = us.map(x =>
+    `<button class="seg-btn ${x.id === u.id ? 'active' : ''}" data-uni="${esc(x.id)}">${esc(x.nombre || x.id)}</button>`).join('');
+  $('#uni-list').innerHTML = ids.map(id => {
+    const s = storyById(id);
+    return `<button class="uni-item ${id === S.uniStory ? 'active' : ''}" data-story="${esc(id)}">
+      <span class="rail-icon">${imgTag(s.icono, s.titulo)}</span><span>${esc(s.titulo)}</span></button>`;
+  }).join('') || '<p class="hint">Aún no hay historias en este universo.</p>';
+
+  const cv = $('#uni-cover');
+  if (!h) { cv.innerHTML = ''; $('#uni-chars').innerHTML = ''; return; }
+  cv.style.setProperty('--bg', `url(${JSON.stringify(h.portada || h.icono || '')})`);
+  cv.innerHTML = `${imgTag(h.portada || h.icono, h.titulo)}
+    <div class="uni-info"><h3>${esc(h.titulo)}</h3>
+      <p class="mv-meta">${esc([h.estado, h.genero].filter(Boolean).join(' - '))}</p>
+      <div class="links">${linksHtml(h.enlaces)}</div></div>`;
+
+  const chars = S.personajes.filter(p => p.historia === h.id);
+  $('#uni-chars').innerHTML = chars.map(c =>
+    `<a class="uni-char" href="#personajes/${esc(h.id)}/${esc(c.id)}" title="${esc(c.nombre)}">${imgTag(c.avatar, c.nombre)}<span>${esc(c.nombre)}</span></a>`
+  ).join('') || '<p class="hint">Esta historia todavía no tiene personajes registrados.</p>';
 }
 
 function renderTimeline() {
@@ -412,52 +443,11 @@ function renderTimeline() {
 }
 
 function setMvTab(tab) {
-  $('#tab-mapa').classList.toggle('active', tab === 'mapa');
-  $('#tab-cron').classList.toggle('active', tab === 'cron');
-  $('#tab-uni').classList.toggle('active', tab === 'uni');
+  ['mapa', 'cron', 'uni'].forEach(t => $('#tab-' + t).classList.toggle('active', t === tab));
   $('#mv-body').hidden = tab !== 'mapa';
   $('#timeline').hidden = tab !== 'cron';
-  $('#uv').hidden = tab !== 'uni';
+  $('#mv-uni').hidden = tab !== 'uni';
   if (tab === 'uni') renderUniverso();
-}
-
-/* ---------- Universo: historias a la izquierda, portada al centro, personajes alrededor ---------- */
-S.uv = 0;
-function renderUniverso() {
-  const U = S.universos;
-  $('#uv-tabs').innerHTML = U.map((u, i) =>
-    `<button class="seg-btn ${i === S.uv ? 'active' : ''}" data-uv="${i}">${esc(u.nombre || 'Universo ' + (i + 1))}</button>`).join('');
-  const u = U[S.uv] || {};
-  const ids = (u.historias || []).filter(storyById);
-  if (!ids.includes(S.uvStory)) S.uvStory = ids[0];
-  $('#uv-nota').textContent = u.nota || '';
-  $('#uv-empty').hidden = ids.length > 0;
-  $('#uv-main').hidden = !ids.length;
-  if (!ids.length) return;
-
-  $('#uv-list').innerHTML = ids.map(id => {
-    const h = storyById(id);
-    return `<button class="uv-item ${id === S.uvStory ? 'active' : ''}" data-story="${esc(id)}">${imgTag(h.icono || h.portada, h.titulo)}<span>${esc(h.titulo)}</span></button>`;
-  }).join('');
-
-  const h = storyById(S.uvStory);
-  $('#uv-center').innerHTML = `${imgTag(h.portada || h.icono, h.titulo)}<h3>${esc(h.titulo)}</h3>
-    <a class="btn gold small" href="#personajes/${esc(h.id)}">Ver personajes</a>`;
-
-  // Personajes en anillos alrededor de la portada
-  const chars = S.personajes.filter(p => p.historia === h.id);
-  const caps = [10, 18, 26];
-  let html = '', k = 0;
-  for (let r = 0; k < chars.length; r++) {
-    const n = Math.min(r < 3 ? caps[r] : 34, chars.length - k);
-    const rx = 31 + r * 8.5, ry = 33 + r * 8.5;
-    for (let i = 0; i < n; i++, k++) {
-      const c = chars[k], a = (i / n) * 2 * Math.PI - Math.PI / 2 + (r % 2) * Math.PI / n;
-      html += `<a class="uv-pj r${Math.min(r, 3)}" href="#personajes/${esc(h.id)}/${esc(c.id)}" title="${esc(c.nombre)}"
-        style="left:${(50 + rx * Math.cos(a)).toFixed(1)}%;top:${(50 + ry * Math.sin(a)).toFixed(1)}%">${imgTag(c.avatar || c.arte, c.nombre)}</a>`;
-    }
-  }
-  $('#uv-ring').innerHTML = html;
 }
 
 /* ============================================================
@@ -531,8 +521,8 @@ function bindEvents() {
   $('#tab-cron').onclick = () => setMvTab('cron');
   $('#tab-uni').onclick = () => setMvTab('uni');
   $('#mv-close').onclick = closeWorld;
-  $('#uv-tabs').addEventListener('click', e => { const b = e.target.closest('[data-uv]'); if (b) { S.uv = Number(b.dataset.uv); S.uvStory = null; renderUniverso(); } });
-  $('#uv-list').addEventListener('click', e => { const b = e.target.closest('[data-story]'); if (b) { S.uvStory = b.dataset.story; renderUniverso(); } });
+  $('#uni-tabs').addEventListener('click', e => { const b = e.target.closest('[data-uni]'); if (b) renderUniverso(b.dataset.uni); });
+  $('#uni-list').addEventListener('click', e => { const b = e.target.closest('[data-story]'); if (b) renderUniverso(null, b.dataset.story); });
 
   // Media
   $('#media-filters').addEventListener('click', e => { const b = e.target.closest('[data-filter]'); if (b) { mediaFilter = b.dataset.filter; renderMedia(); } });

@@ -1,7 +1,29 @@
 {
   "universos": [
-    { "nombre": "Universo 1", "nota": "", "historias": [] },
-    { "nombre": "Universo 2", "nota": "", "historias": [] },
-    { "nombre": "Universo 3", "nota": "", "historias": [] }
+    {
+      "id": "universo-1",
+      "nombre": "Universo 1",
+      "historias": [
+        "RanchiBizarreAventure"
+      ]
+    },
+    {
+      "id": "universo-2",
+      "nombre": "Universo 2",
+      "historias": [
+        "detras-frialdad",
+        "luz-esperanza",
+        "mensaje-arrepentimiento"
+      ]
+    },
+    {
+      "id": "universo-3",
+      "nombre": "Universo 3",
+      "historias": [
+        "RanchiBizarreAventure",
+        "buscando-un-proposito",
+        "camino-heroe"
+      ]
+    }
   ]
 }

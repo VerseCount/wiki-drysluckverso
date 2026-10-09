@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
   <div class="stars" aria-hidden="true"></div>
@@ -147,12 +147,12 @@
             </div>
             <svg class="mv-lines" id="mv-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
             <div id="mv-nodes"></div>
-            <p class="hint mv-tip" id="mv-hint">Toca un mundo para ver de qué trata y con cuáles se conecta.</p>
           </div>
         </div>
 
-        <aside class="mv-panel" id="mv-panel" hidden>
+        <aside class="mv-panel" id="mv-panel">
           <button class="mv-close" id="mv-close" aria-label="Cerrar">&times;</button>
+          <p class="hint" id="mv-hint">Toca un mundo para ver de qué trata y con cuáles se conecta.</p>
           <div id="mv-info" hidden>
             <h3 id="mv-title"></h3>
             <p class="mv-meta" id="mv-meta"></p>
@@ -167,22 +167,18 @@
         </aside>
       </div>
 
-      <ol class="timeline" id="timeline" hidden></ol>
-
-      <section class="uv" id="uv" hidden>
-        <div class="uv-bar">
-          <div class="seg" id="uv-tabs"></div>
-          <p class="mv-gnote" id="uv-nota"></p>
-        </div>
-        <p class="hint uv-empty" id="uv-empty" hidden>Este universo aún no tiene historias. Agrégalas en data/universos.json.</p>
-        <div class="uv-main" id="uv-main">
-          <aside class="uv-side" id="uv-list" aria-label="Historias del universo"></aside>
-          <div class="uv-stage">
-            <div class="uv-center" id="uv-center"></div>
-            <div id="uv-ring"></div>
-          </div>
+      <section class="uni" id="mv-uni" hidden>
+        <aside class="uni-side">
+          <div class="uni-tabs" id="uni-tabs"></div>
+          <div class="uni-list" id="uni-list"></div>
+        </aside>
+        <div class="uni-stage">
+          <div class="uni-cover" id="uni-cover"></div>
+          <div class="uni-chars" id="uni-chars"></div>
         </div>
       </section>
+
+      <ol class="timeline" id="timeline" hidden></ol>
     </div>
   </main>
 
@@ -207,6 +203,6 @@
     </div>
   </div>
 
-  <script src="js/app.js?v=3"></script>
+  <script src="js/app.js?v=4"></script>
 </body>
 </html>
