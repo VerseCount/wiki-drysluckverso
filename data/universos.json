@@ -5,7 +5,15 @@
       "nombre": "Universo 1",
       "historias": [
         "RanchiBizarreAventure"
-      ]
+      ],
+      "basado_en": {
+        "imagenes": [
+          "",
+          "",
+          ""
+        ],
+        "descripcion": ""
+      }
     },
     {
       "id": "universo-2",
@@ -14,7 +22,15 @@
         "detras-frialdad",
         "luz-esperanza",
         "mensaje-arrepentimiento"
-      ]
+      ],
+      "basado_en": {
+        "imagenes": [
+          "",
+          "",
+          ""
+        ],
+        "descripcion": ""
+      }
     },
     {
       "id": "universo-3",
@@ -23,7 +39,15 @@
         "RanchiBizarreAventure",
         "buscando-un-proposito",
         "camino-heroe"
-      ]
+      ],
+      "basado_en": {
+        "imagenes": [
+          "",
+          "",
+          ""
+        ],
+        "descripcion": ""
+      }
     }
   ]
 }

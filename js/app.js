@@ -295,9 +295,25 @@ function showOpinion(targetId) {
 /* ============================================================
    MULTIVERSO
    ============================================================ */
-function worldPos(h, i) {
-  const m = h.mapa || { x: 16 + (i * 23) % 68, y: 22 + (i * 31) % 56 };
-  return { x: 6 + m.x * 0.88, y: 9 + m.y * 0.78 }; // margen para que no se corten los nombres
+// Reparte los mundos por todo el mapa y separa los que quedan muy juntos
+function layoutPos() {
+  const P = S.historias.map((h, i) => {
+    const m = h.mapa || { x: 16 + (i * 23) % 68, y: 22 + (i * 31) % 56 };
+    return { x: m.x, y: m.y };
+  });
+  for (let it = 0; it < 80; it++) {
+    for (let a = 0; a < P.length; a++) for (let b = a + 1; b < P.length; b++) {
+      const dx = (P[b].x - P[a].x) * 2, dy = P[b].y - P[a].y; // el mapa es ~2 veces más ancho que alto
+      const d = Math.hypot(dx, dy) || 0.01, min = 24;
+      if (d < min) {
+        const k = (min - d) / (2 * d);
+        P[a].x -= dx * k / 2; P[a].y -= dy * k;
+        P[b].x += dx * k / 2; P[b].y += dy * k;
+      }
+    }
+    P.forEach(p => { p.x = Math.min(92, Math.max(8, p.x)); p.y = Math.min(88, Math.max(10, p.y)); });
+  }
+  return P;
 }
 
 /* Conexiones: cada "grupo" es un punto de tu documento (historias que se conectan entre sí).
@@ -321,7 +337,8 @@ function buildGroups() {
 function renderMapa() {
   buildGroups();
   const pos = {};
-  S.historias.forEach((h, i) => { pos[h.id] = worldPos(h, i); });
+  const L = layoutPos();
+  S.historias.forEach((h, i) => { pos[h.id] = L[i]; });
 
   let lines = '';
   S.grupos.forEach((g, gi) => g.edges.forEach(e => {
@@ -397,36 +414,49 @@ function closeWorld() {
 }
 
 /* Pestaña Universo: las historias de cada universo salen de data/universos.json */
-function renderUniverso(uid, sid) {
+function renderUniverso(uid, sid, mode) {
   const us = S.universos || [];
   if (!us.length) return;
   const u = us.find(x => x.id === (uid || S.uniId)) || us[0];
   S.uniId = u.id;
+  if (mode) S.uniMode = mode;
+  const base = S.uniMode === 'base';
   const ids = (u.historias || []).filter(storyById);
   if (sid) S.uniStory = sid;
   if (!ids.includes(S.uniStory)) S.uniStory = ids[0];
   const h = storyById(S.uniStory);
 
-  $('#uni-tabs').innerHTML = us.map(x =>
-    `<button class="seg-btn ${x.id === u.id ? 'active' : ''}" data-uni="${esc(x.id)}">${esc(x.nombre || x.id)}</button>`).join('');
+  $('#uni-main').hidden = base;
+  $('#uni-base').hidden = !base;
+  $('#uni-foot').innerHTML = us.map(x => `<div class="uni-grp">
+    <button class="uni-btn ${x.id === u.id && !base ? 'active' : ''}" data-uni="${esc(x.id)}">${esc(x.nombre || x.id)}</button>
+    <button class="uni-btn alt ${x.id === u.id && base ? 'active' : ''}" data-base="${esc(x.id)}">Basado en...</button></div>`).join('');
+
+  if (base) {
+    const b = u.basado_en || {};
+    const im = n => imgTag((b.imagenes || [])[n], `Imagen ${n + 1}`);
+    $('#uni-base').innerHTML = `<div class="ub-img a">${im(0)}</div><div class="ub-img b">${im(1)}</div><div class="ub-img c">${im(2)}</div>
+      <div class="ub-desc">${b.descripcion ? paragraphs(b.descripcion) : '<p class="hint">Aquí va la descripción de en qué se basa este universo.</p>'}</div>`;
+    return;
+  }
+
   $('#uni-list').innerHTML = ids.map(id => {
     const s = storyById(id);
-    return `<button class="uni-item ${id === S.uniStory ? 'active' : ''}" data-story="${esc(id)}">
-      <span class="rail-icon">${imgTag(s.icono, s.titulo)}</span><span>${esc(s.titulo)}</span></button>`;
+    return `<button class="uni-item ${id === S.uniStory ? 'active' : ''}" data-story="${esc(id)}">${imgTag(s.icono, s.titulo)}<span>${esc(s.titulo)}</span></button>`;
   }).join('') || '<p class="hint">Aún no hay historias en este universo.</p>';
+  if (!h) { $('#uni-card').innerHTML = ''; $('#uni-cover').innerHTML = ''; return; }
 
   const cv = $('#uni-cover');
-  if (!h) { cv.innerHTML = ''; $('#uni-chars').innerHTML = ''; return; }
   cv.style.setProperty('--bg', `url(${JSON.stringify(h.portada || h.icono || '')})`);
-  cv.innerHTML = `${imgTag(h.portada || h.icono, h.titulo)}
-    <div class="uni-info"><h3>${esc(h.titulo)}</h3>
-      <p class="mv-meta">${esc([h.estado, h.genero].filter(Boolean).join(' - '))}</p>
-      <div class="links">${linksHtml(h.enlaces)}</div></div>`;
+  cv.innerHTML = imgTag(h.portada || h.icono, h.titulo);
 
   const chars = S.personajes.filter(p => p.historia === h.id);
-  $('#uni-chars').innerHTML = chars.map(c =>
-    `<a class="uni-char" href="#personajes/${esc(h.id)}/${esc(c.id)}" title="${esc(c.nombre)}">${imgTag(c.avatar, c.nombre)}<span>${esc(c.nombre)}</span></a>`
-  ).join('') || '<p class="hint">Esta historia todavía no tiene personajes registrados.</p>';
+  $('#uni-card').innerHTML = `<h3>${esc(h.titulo)}</h3>
+    <p class="mv-meta">${esc([h.estado, h.genero].filter(Boolean).join(' - '))}</p>
+    <div class="links">${linksHtml(h.enlaces)}</div>
+    <div class="uni-chars">${chars.map(c =>
+      `<a class="uni-char" href="#personajes/${esc(h.id)}/${esc(c.id)}" title="${esc(c.nombre)}">${imgTag(c.arte || c.avatar, c.nombre)}<span>${esc(c.nombre)}</span></a>`
+    ).join('') || '<p class="hint">Esta historia todavía no tiene personajes registrados.</p>'}</div>`;
 }
 
 function renderTimeline() {
@@ -521,8 +551,12 @@ function bindEvents() {
   $('#tab-cron').onclick = () => setMvTab('cron');
   $('#tab-uni').onclick = () => setMvTab('uni');
   $('#mv-close').onclick = closeWorld;
-  $('#uni-tabs').addEventListener('click', e => { const b = e.target.closest('[data-uni]'); if (b) renderUniverso(b.dataset.uni); });
-  $('#uni-list').addEventListener('click', e => { const b = e.target.closest('[data-story]'); if (b) renderUniverso(null, b.dataset.story); });
+  $('#mv-uni').addEventListener('click', e => {
+    const u = e.target.closest('[data-uni]'), b = e.target.closest('[data-base]'), s = e.target.closest('[data-story]');
+    if (u) renderUniverso(u.dataset.uni, null, 'historia');
+    else if (b) renderUniverso(b.dataset.base, null, 'base');
+    else if (s) renderUniverso(null, s.dataset.story, 'historia');
+  });
 
   // Media
   $('#media-filters').addEventListener('click', e => { const b = e.target.closest('[data-filter]'); if (b) { mediaFilter = b.dataset.filter; renderMedia(); } });
