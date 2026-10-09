@@ -414,19 +414,6 @@ function closeWorld() {
 }
 
 /* Pestaña Universo: las historias de cada universo salen de data/universos.json */
-// "Basado en...": imágenes de proporción normal (3:4 y 16:9), centradas y ajustadas al espacio disponible
-function fitBase() {
-  const b = $('#uni-base'), t = $('.ub-top', b), d = $('.ub-desc', b);
-  if (!t || !d) return;
-  if (window.innerWidth <= 900) { t.removeAttribute('style'); d.removeAttribute('style'); return; }
-  const g = 18, wOf = H => 0.75 * H + g + (H - g) * 8 / 9;
-  let H = Math.max(240, b.clientHeight - 120 - g);
-  if (wOf(H) > b.clientWidth) H = Math.max(240, (b.clientWidth - g / 9) / 1.6389);
-  t.style.cssText = `width:${wOf(H)}px;height:${H}px;grid-template-columns:${0.75 * H}px 1fr`;
-  d.style.width = wOf(H) + 'px';
-}
-window.addEventListener('resize', () => { if (!$('#uni-base').hidden) fitBase(); });
-
 function renderUniverso(uid, sid, mode) {
   const us = S.universos || [];
   if (!us.length) return;
@@ -451,10 +438,14 @@ function renderUniverso(uid, sid, mode) {
 
   if (base) {
     const b = u.basado_en || {};
-    const im = n => (b.imagenes || [])[n] ? imgTag(b.imagenes[n], `Imagen ${n + 1}`) : `<div class="ub-ph">Imagen ${n + 1}</div>`;
-    $('#uni-base').innerHTML = `<div class="ub-top"><div class="ub-img a">${im(0)}</div><div class="ub-img">${im(1)}</div><div class="ub-img">${im(2)}</div></div>
+    // La imagen se ve completa y, si no encaja en la caja, el resto se rellena con la misma imagen difuminada
+    const box = (n, cls) => {
+      const s = (b.imagenes || [])[n];
+      return s ? `<div class="ub-img ${cls}" style="--bg:url(${esc(JSON.stringify(s))})">${imgTag(s, `Imagen ${n + 1}`)}</div>`
+               : `<div class="ub-img ${cls}"><div class="ub-ph">Imagen ${n + 1}</div></div>`;
+    };
+    $('#uni-base').innerHTML = `<div class="ub-top">${box(0, 'a')}${box(1, '')}${box(2, '')}</div>
       <div class="ub-desc">${b.descripcion ? paragraphs(b.descripcion) : '<p class="hint">Aquí va la descripción de en qué se basa este universo.</p>'}</div>`;
-    fitBase();
     return;
   }
   if (!h) { $('#uni-card').innerHTML = ''; $('#uni-cover').innerHTML = ''; return; }

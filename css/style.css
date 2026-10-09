@@ -443,10 +443,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .uni-cover { flex: none; height: 100%; max-width: 55%; aspect-ratio: var(--ar, 2 / 3); overflow: hidden; border: 1px solid var(--line); }
 .uni-cover > img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
-.uni-base { display: flex; flex-direction: column; align-items: center; gap: 18px; overflow-y: auto; }
-.ub-top { display: grid; grid-template-rows: 1fr 1fr; gap: 18px; width: 100%; }
-.ub-img { overflow: hidden; min-height: 0; border: 1px solid var(--line); background: rgba(8, 14, 34, .7); }
-.ub-img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.uni-base { display: flex; flex-direction: column; gap: 18px; }
+.ub-top { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+.ub-img { position: relative; overflow: hidden; min-height: 0; border: 1px solid var(--line); background: rgba(8, 14, 34, .7); }
+.ub-img::before { content: ''; position: absolute; inset: -20px; background: var(--bg) center / cover; filter: blur(24px) brightness(.55); }
+.ub-img img { position: relative; display: block; width: 100%; height: 100%; object-fit: contain; }
 .ub-img.a { grid-row: 1 / 3; }
 .ub-ph { height: 100%; display: grid; place-items: center; color: var(--muted); font-style: italic; }
 .ub-desc { flex: none; height: 120px; overflow-y: auto; padding: 18px 22px; background: rgba(8, 14, 34, .82); border: 1px solid var(--line); }
