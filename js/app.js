@@ -63,9 +63,11 @@ async function loadData() {
     if (!r.ok) throw new Error(`No se pudo cargar data/${f}.json`);
     return r.json();
   });
-  const [cfg, historias, personajes, noticias, media] = await Promise.all(
+  const [cfg, historias, personajes, noticias, media, universos] = await Promise.all(
     ['config', 'historias', 'personajes', 'noticias', 'media'].map(get)
+      .concat(get('universos').catch(() => ({ universos: [] })))
   );
+  S.universos = universos.universos || [];
   S.cfg = cfg;
   S.historias = historias.historias || [];
   S.gruposRaw = historias.conexiones_grupos || [];
@@ -87,10 +89,11 @@ function showView(v) {
 }
 
 function route() {
-  const [v, arg] = location.hash.slice(1).split('/');
+  const [v, arg, ch] = location.hash.slice(1).split('/');
   const view = showView(v);
   window.scrollTo(0, 0);
   if (view === 'personajes') selectStory(arg && storyById(arg) ? arg : (S.storyId || S.historias[0]?.id), false);
+  if (view === 'personajes' && ch && charById(ch)) selectChar(ch);
 }
 
 document.addEventListener('click', e => {
@@ -340,6 +343,7 @@ function selectWorld(id, g) {
   const h = storyById(id);
   if (!h) return;
   S.worldId = id;
+  $('#mv-panel').hidden = false;
   const touches = e => e.a === id || e.b === id;
   const mine = S.grupos.map((_, i) => i).filter(i => S.grupos[i].edges.some(touches));
   const active = mine.includes(g) ? g : (mine.includes(S.activeGroup) ? S.activeGroup : mine[0]);
@@ -385,6 +389,15 @@ function selectWorld(id, g) {
   }).join('') || '<span class="hint">Aún sin conexiones.</span>';
 }
 
+function closeWorld() {
+  S.worldId = null;
+  $('#mv-panel').hidden = true;
+  $('#mv-hint').hidden = false;
+  $$('.node').forEach(n => n.classList.remove('active', 'dim'));
+  $('#mv-lines').classList.remove('sel');
+  $$('#mv-lines line').forEach(l => l.classList.remove('on'));
+}
+
 function renderTimeline() {
   const list = [...S.historias].sort((a, b) => (a.orden ?? 999) - (b.orden ?? 999));
   $('#timeline').innerHTML = list.map((h, i) => `
@@ -399,11 +412,52 @@ function renderTimeline() {
 }
 
 function setMvTab(tab) {
-  const mapa = tab === 'mapa';
-  $('#tab-mapa').classList.toggle('active', mapa);
-  $('#tab-cron').classList.toggle('active', !mapa);
-  $('#mv-body').hidden = !mapa;
-  $('#timeline').hidden = mapa;
+  $('#tab-mapa').classList.toggle('active', tab === 'mapa');
+  $('#tab-cron').classList.toggle('active', tab === 'cron');
+  $('#tab-uni').classList.toggle('active', tab === 'uni');
+  $('#mv-body').hidden = tab !== 'mapa';
+  $('#timeline').hidden = tab !== 'cron';
+  $('#uv').hidden = tab !== 'uni';
+  if (tab === 'uni') renderUniverso();
+}
+
+/* ---------- Universo: historias a la izquierda, portada al centro, personajes alrededor ---------- */
+S.uv = 0;
+function renderUniverso() {
+  const U = S.universos;
+  $('#uv-tabs').innerHTML = U.map((u, i) =>
+    `<button class="seg-btn ${i === S.uv ? 'active' : ''}" data-uv="${i}">${esc(u.nombre || 'Universo ' + (i + 1))}</button>`).join('');
+  const u = U[S.uv] || {};
+  const ids = (u.historias || []).filter(storyById);
+  if (!ids.includes(S.uvStory)) S.uvStory = ids[0];
+  $('#uv-nota').textContent = u.nota || '';
+  $('#uv-empty').hidden = ids.length > 0;
+  $('#uv-main').hidden = !ids.length;
+  if (!ids.length) return;
+
+  $('#uv-list').innerHTML = ids.map(id => {
+    const h = storyById(id);
+    return `<button class="uv-item ${id === S.uvStory ? 'active' : ''}" data-story="${esc(id)}">${imgTag(h.icono || h.portada, h.titulo)}<span>${esc(h.titulo)}</span></button>`;
+  }).join('');
+
+  const h = storyById(S.uvStory);
+  $('#uv-center').innerHTML = `${imgTag(h.portada || h.icono, h.titulo)}<h3>${esc(h.titulo)}</h3>
+    <a class="btn gold small" href="#personajes/${esc(h.id)}">Ver personajes</a>`;
+
+  // Personajes en anillos alrededor de la portada
+  const chars = S.personajes.filter(p => p.historia === h.id);
+  const caps = [10, 18, 26];
+  let html = '', k = 0;
+  for (let r = 0; k < chars.length; r++) {
+    const n = Math.min(r < 3 ? caps[r] : 34, chars.length - k);
+    const rx = 31 + r * 8.5, ry = 33 + r * 8.5;
+    for (let i = 0; i < n; i++, k++) {
+      const c = chars[k], a = (i / n) * 2 * Math.PI - Math.PI / 2 + (r % 2) * Math.PI / n;
+      html += `<a class="uv-pj r${Math.min(r, 3)}" href="#personajes/${esc(h.id)}/${esc(c.id)}" title="${esc(c.nombre)}"
+        style="left:${(50 + rx * Math.cos(a)).toFixed(1)}%;top:${(50 + ry * Math.sin(a)).toFixed(1)}%">${imgTag(c.avatar || c.arte, c.nombre)}</a>`;
+    }
+  }
+  $('#uv-ring').innerHTML = html;
 }
 
 /* ============================================================
@@ -475,6 +529,10 @@ function bindEvents() {
   });
   $('#tab-mapa').onclick = () => setMvTab('mapa');
   $('#tab-cron').onclick = () => setMvTab('cron');
+  $('#tab-uni').onclick = () => setMvTab('uni');
+  $('#mv-close').onclick = closeWorld;
+  $('#uv-tabs').addEventListener('click', e => { const b = e.target.closest('[data-uv]'); if (b) { S.uv = Number(b.dataset.uv); S.uvStory = null; renderUniverso(); } });
+  $('#uv-list').addEventListener('click', e => { const b = e.target.closest('[data-story]'); if (b) { S.uvStory = b.dataset.story; renderUniverso(); } });
 
   // Media
   $('#media-filters').addEventListener('click', e => { const b = e.target.closest('[data-filter]'); if (b) { mediaFilter = b.dataset.filter; renderMedia(); } });

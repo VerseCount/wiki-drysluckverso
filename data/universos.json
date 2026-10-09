@@ -1,0 +1,7 @@
+{
+  "universos": [
+    { "nombre": "Universo 1", "nota": "", "historias": [] },
+    { "nombre": "Universo 2", "nota": "", "historias": [] },
+    { "nombre": "Universo 3", "nota": "", "historias": [] }
+  ]
+}

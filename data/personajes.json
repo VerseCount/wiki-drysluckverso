@@ -724,8 +724,8 @@
       "titulo": "¿?",
       "avatar": "",
       "arte": "imagenes/arte/RamchiPersonajes/dream.webp",
-      "descripcion": "uno de los miembros de las cadenas de prometeo. Es alguien alegre pero a la vez lo suficiente serio, ademas paciente y marcado por una experiencia que abarca muchas vidas. Su forma de pensar está profundamente relacionada con su deseo de terminar con el sufrimiento del mundo.",
-      "historia_personal": "Dream conserva recuerdos de diferentes ciclos de existencia. En una vida anterior perteneció a los Hijos de Omnia junto a otros compañeros y, después de experimentar repetidamente las mismas tragedias, comenzó a buscar una manera de liberar definitivamente a las almas de ese ciclo. Su historia termina estando relacionada con una lucha mucho más grande que la de los personajes actuales: romper el sistema que mantiene a las almas atrapadas.",
+      "descripcion": "Es alguien alegre pero a la vez lo suficiente serio, ademas paciente y marcado por una experiencia que abarca muchas vidas. Su forma de pensar está profundamente relacionada con su deseo de terminar con el sufrimiento del mundo.",
+      "historia_personal": "Miembro de las Cadenas de Prometeo. Dream conserva recuerdos de diferentes ciclos de existencia. En una vida anterior perteneció a los Hijos de Omnia junto a otros compañeros y, después de experimentar repetidamente las mismas tragedias, comenzó a buscar una manera de liberar definitivamente a las almas de ese ciclo. Su historia termina estando relacionada con una lucha mucho más grande que la de los personajes actuales: romper el sistema que mantiene a las almas atrapadas.",
       "datos": {
         "Edad": "¿?",
         "Altura": "¿?",
@@ -1210,7 +1210,29 @@
       ],
       "opiniones": []
     },
-  
+     {
+      "id": "busc-mayano",
+      "historia": "buscando-un-proposito",
+      "nombre": "Mayano top gun ",
+      "titulo": "Ace del Kaleidoscopio",
+      "avatar": "",
+      "arte": "imagenes/arte/EcosPersonajes/mayano.png",
+      "descripcion": "Es una uma musume pequeña, de personalidad alegre, despreocupada, curiosa, con un lado infantil que contrasta con su deseo de ser vista como una mujer adulta. Tiene el cabello largo de color naranja castaño, ojos naranjas, y le gusta molestar a su entrenador. ",
+      "historia_personal": "Es hija de un piloto por lo que de niña jugaba con él en el aeropuerto, de ahí su fascinación por el cielo, los aviones y aventura hasta el punto de que puede hacer un avión de papel con cualquier hoja además de ser la compañera de cuarto de Tokai Teiou.",
+      "datos": {
+        "Edad": "¿?",
+        "Altura": "1,43 cm",
+        "Cumpleaños": "24 de marzo",
+        "Ocupación": "Estudiante y corredora"
+      },
+      "apariciones": [
+        {
+          "titulo": "Buscando un propósito - Umamusume",
+          "url": "https://www.wattpad.com/story/388811719-buscando-un-prop%C3%B3sito-umamusume-tn-x-umamusume"
+        }
+      ],
+      "opiniones": []
+    },
     {
       "id": "busc-miyabi-oshizora",
       "historia": "buscando-un-proposito",
@@ -1334,7 +1356,7 @@
       "titulo": "La Uma entrenadora cientifica",
       "avatar": "",
       "arte": "imagenes/arte/PropositoPersonajes/feinberg.png",
-      "descripcion": "Chica de pelo castaño y largo con una personalidad amable, curiosa y algo ingenua, conservando sus conocimientos de ciencia y medicina.Lleva saco gris oscuro, camisa verde oscuro con botones y una cadena plateada con una piedra verde incrustada..    ",
+      "descripcion": "Umamusume de pelo castaño y largo con una personalidad amable, curiosa y algo ingenua, conservando sus conocimientos de ciencia y medicina.Lleva saco gris oscuro, camisa verde oscuro con botones y una cadena plateada con una piedra verde incrustada..    ",
       "historia_personal": "Umamusume que se hace entrenadora porque le alegra ver cómo las Umamusume cumplen sus sueños, y quiere ayudarlas a cumplirlos. Es muy estudiosa y se compromete con las investigaciones y las unas a su cargo, pero carga con un dolor y guarda recuerdos que no son del todo suyos. ",
       "datos": {
         "Edad": "21",
@@ -1376,7 +1398,7 @@
     {
       "id": "tsub-tsukushi",
       "historia": "capitan-tsubasa",
-      "nombre": "Tsukush Takahashi",
+      "nombre": "Tsukushi Takahashi(beta)",
       "titulo": "El jugador limitado",
       "avatar": "",
       "arte": "imagenes/arte/TsubasaPersonajes/takahashi.png",
@@ -1703,337 +1725,423 @@
       "titulo": "Entrenadora de futbol",
       "avatar": "",
       "arte": "imagenes/arte/TsubasaPersonajes/rin.jpg",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Entrenadora del equipo femenino del Nakatsu. Es amable y optimista, y confía mucho en sus jugadoras.",
+      "historia_personal": "Lleva al primer equipo femenino de la primaria y comparte con Kyo la meta de ir a las nacionales.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "25",
+        "Altura": "1,60 cm",
+        "Cumpleaños": "2 de diciembre",
+        "Ocupación": "Entrenadora de futbol"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Capitan Tsubasa una nueva historia",
+          "url": "https://www.wattpad.com/story/320334453-capitan-tsubasa-una-nueva-historia-cancelada"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "cami-tn-midoriya",
       "historia": "camino-heroe",
       "nombre": "Tn Midoriya",
-      "titulo": "¿?",
+      "titulo": "Deku",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/HeroePersonajes/tnmidoriya.jpg",
+      "descripcion": "Es un chico de preparatoria tenaz, ingenuo, de gran corazón que provoca que se mueva antes de pensar cuando alguien está en peligro. Lleva siempre un cuaderno donde anota información de las chicas mágicas y ademas de ser uno de los pocos hombres del mundo.",
+      "historia_personal": "Desde pequeño admira a las chicas mágicas, en especial a Luna Estelar y siendo su inspiración para ser un héroe sim embargo para serlo necesita tener magia, pero Midoriya no posee eso. Un dia mientras andaba en la ciudad se encontró con Aoko quien al ver como arriesgo su vida para salvar a una chica, le dice que puede ser un héroe y que se convierta en su alumno. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,66 cm",
+        "Cumpleaños": "9 de octubre",
+        "Ocupación": "Estudiante y heroe"
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "cami-kaori",
-      "historia": "camino-heroe",
-      "nombre": "Kaori",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "cami-chimozuke",
-      "historia": "camino-heroe",
-      "nombre": "Chimozuke",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        },  {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "cami-oshino",
       "historia": "camino-heroe",
-      "nombre": "Oshino",
-      "titulo": "¿?",
+      "nombre": "Oshino Yamazaki",
+      "titulo": "La heroina de Shibuya",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/HeroePersonajes/oshino.jpg",
+      "descripcion": "Chica mágica de rango B de ojos azules brillantes y usa magia de luz con una actitud amable, alegre y carismática causando que la gente la adore, pero pesar de su positivismo no le tiembla las palabras al decir la verdad. ",
+      "historia_personal": "Desde pequeña decidio convertirse en una chica magica por lo que al tener la oportunidad se hizo una. Oshino cree que mostrar una sonrisa es una forma de ocultar el miedo, y que ser chica mágica es cansado pero necesario para no preocupar a la gente.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,62",
+        "Cumpleaños": "29 de mayo",
+        "Ocupación": "Chica magica"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+        {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "cami-aoko-shizuka",
       "historia": "camino-heroe",
       "nombre": "Aoko Shizuka",
-      "titulo": "¿?",
+      "titulo": "Blue Rock Shooter",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/HeroePersonajes/aoko.jpg",
+      "descripcion": "Chica mágica de cabello negro azulado y ojos con llamas azules con una vestimenta casi descubierta de color negro. Es escandalosa, bromista, perezosa y presumida pero detrás de esa actitud es alguien protectora y no duda en crear armas con su magia como cadenas, espada y balas, para proteger a las personas que Aoko aprecia. ",
+      "historia_personal": "Fue una de las cinco mejores chicas mágicas de Japón que su grupo trajo la paz por mucho tiempo, pero después del incidente de hace dos o tres años en la prefectura de Shizuoka, el grupo se separó. Ahora vive junto a la playa, con deudas con Chimozuke y se hace cargo de entrenar a Tn porque cree que alguien como él puede ser héroe, además de ser la sucesora de una magia que se transfiere por cada portador. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "18 años",
+        "Altura": "1,60",
+        "Cumpleaños": "8 de octubre",
+        "Ocupación": "Chica magica"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+        {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "cami-shiroko",
       "historia": "camino-heroe",
-      "nombre": "Shiroko",
-      "titulo": "¿?",
+      "nombre": "Shiroko Emiya",
+      "titulo": "Mirage",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/HeroePersonajes/shiroko.png",
+      "descripcion": "Chica de 17 años y cabello rojo con personalidad amable, discreta y algo insegura. Fue una chica magica en el pasado pero ahora cuida de su familia y vive como una chica común, convencida de que su tiempo como heroína terminó,",
+      "historia_personal": "Fue la heroína Mirage del grupo Komachi de cuatro integrantes, sus compañeras brillaban más y la hacían sentir un estorbo por su magia limitada que de tanto desprecio tuvo que abandonar el grupo.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,65",
+        "Cumpleaños": "20 de octubre",
+        "Ocupación": "Chica magica"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+        {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "cami-beako",
+      "historia": "camino-heroe",
+      "nombre": "Beako Shinomiya",
+      "titulo": "La muñeca loca",
+      "avatar": "",
+      "arte": "imagenes/arte/HeroePersonajes/beako.jpg",
+      "descripcion": "Ex chica mágica que usa un martillo y rayos que inmovilizan al rival. Es fuerte, dura, desafiante, muy lista en combate que anticipa casi todos los ataques incluso habla con frialdad y desprecia a las chicas mágicas. ",
+      "historia_personal": "Fue una de las cinco mejores de Japón junto a Aoko, pero a diferencia de ella, ya no quiere estar en un bando que obliga a seguir un camino ni respalda un sistema hipócrita. Busca eliminar a las chicas mágicas por abusar de su estatus debido a que para el ojo de la gente puedan ser heroínas sim embargo por dentro están podridas.",
+      "datos": {
+        "Edad": "18 años",
+        "Altura": "1,50",
+        "Cumpleaños": "30 de mayo",
+        "Ocupación": "Liga de Villanas"
+      },
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+          {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "cami-magia-estelar",
       "historia": "camino-heroe",
-      "nombre": "Magia Estelar",
-      "titulo": "¿?",
+      "nombre": "Luna Estelar",
+      "titulo": "Magia Estelar",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/HeroePersonajes/estelar.jpg",
+      "descripcion": "‘Heroína’ de cabello rosado de actitud juguetona, burlona, descarada y tranquila incluso en situaciones peligrosas. Usa Magia de manipulación de cuerpo que le permite tomar traspasar su alma a otro cuerpo además de obtener sus habilidades. ",
+      "historia_personal": "Miembro de las Cadenas de Prometeo y heroína favorita de Midoriya. Se mantuvo oculta para buscar un poder que a estado buscando por generaciones para lograr su objetivo, pero sin éxito y ahora siendo parte de la liga de Villanas junto a Beako. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "??",
+        "Altura": "1, 55 cm",
+        "Cumpleaños": "3 de octubre",
+        "Ocupación": "Ex chica magica"
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "prec-chizuru-nanakase",
-      "historia": "precio-perfeccion",
-      "nombre": "Chizuru Nanakase",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+          {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "prec-allen-nanakase",
       "historia": "precio-perfeccion",
       "nombre": "Allen Nanakase",
-      "titulo": "¿?",
+      "titulo": "El prodigio de los Nanakase",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/allen.jpg",
+      "descripcion": "Joven prodigio, fuerte en deporte y estudios, de mente fría y disciplinada. De niño es frío, orgulloso y reservado, convencido de que las emociones son una debilidad.",
+      "historia_personal": "Nace en una familia rica e influyente que solo valora el talento y desprecia la debilidad. Crece entrenado para ser perfecto, con padres que no muestran afecto y miden el amor por los logros. Su hermana Chizuru intenta mostrarle que la verdadera grandeza está en ser auténtico, pero él no la escucha hasta que un día se da cuenta el camino que a seguido ciegamente por lo que se aleja y empieza de cero con la promesa de proteger a quienes que son vistos como ‘sin talento’. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16",
+        "Altura": "1,68",
+        "Cumpleaños": "20 de diciembre",
+        "Ocupación": "Estudiante, tecnico, electricista, etc."
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "prec-aiko-takahashi",
+      "id": "prec-chizuru-nanakase",
       "historia": "precio-perfeccion",
-      "nombre": "Aiko Takahashi",
-      "titulo": "¿?",
+      "nombre": "Chizuru Nanakase",
+      "titulo": "La oveja negra de los Nanakase",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/chizuru.jpg",
+      "descripcion": "Hermana mayor de Allen y opuesto a toda su familia fría. Es alegre, rebelde en sentido de que es opuesto a su familia, tiene un corazón con el que expresa lo que siente y cree que las emociones además de que considera que las conexiones humanas importan. ",
+      "historia_personal": "Crece en una familia donde el talento lo es todo y la debilidad se castiga provocando que Chizuru sea vista como una deshonra al no tener un ‘Talento’ y por eso la llaman lastre y deshonra. Es la única que se preocupa por Allen y le enseña que se puede ser fuerte sin dejar de ser humano.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,60",
+        "Cumpleaños": "3 de marzo",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        } 
+      ],
       "opiniones": []
     },
     {
       "id": "prec-yoyoko",
       "historia": "precio-perfeccion",
-      "nombre": "Yoyoko",
-      "titulo": "¿?",
+      "nombre": "Yoyoko Otsuki",
+      "titulo": "Vocalista y guitarrista de Sideros",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/yoyoko.png",
+      "descripcion": "Yoyoko tiene el pelo castaño con mechas rojas recogido con dos coletas, ojos de color rojo claro, lleva una boina y una gargantilla negra. A pesar de su apariencia externa, es muy insegura y tiene un estilo de comunicación deficiente haciendo difícil que los demás se relacionen con ella.",
+      "historia_personal": "Aunque ya alcanzó la fama desde que está en SIDEROS y puede realizar sus propiedades conciertos en solitario, compara los logros de los demás con los suyos, sintiendo que no ha hecho lo suficiente para superarlos. Le gusta ir al karaoke sola, por miedo a que la gente la vea y la juzgue.  A pesar de eso, ha sido una persona considerada, especialmente con su rival Kessoku Band, y está despuesta a darles consejos para que mejoren y tengan éxito. ",
       "datos": {
-        "Edad": "¿?",
+        "Edad": "16 años",
         "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Cumpleaños": "2 de junio",
+        "Ocupación": "Vocalistaa y guitarrista de Sideros"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "prec-akubi",
       "historia": "precio-perfeccion",
-      "nombre": "Akubi",
-      "titulo": "¿?",
+      "nombre": "Akubi Hasegawa",
+      "titulo": "Baterista de Sideros",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/akubi.png",
+      "descripcion": "Chica de cabello blanco, ojos amarillos y siempre se la ve con una máscara. siempre critica las acciones de los demás y es siempre sincera en sus comentarios sim embargo casi siempre es amable, aunque tiene un lado burlón. ",
+      "historia_personal": "Es la baterista de Sideros, donde equilibra el carácter explosivo de Yoyoko usando el humor para aliviar la tensión. Cuando ofrece su ayuda a alguien la cumple hasta el final y de colaborar con la organización de las presentaciones de la banda en FOLT, el live house donde tocan. ",
       "datos": {
-        "Edad": "¿?",
+        "Edad": "16 años",
         "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Cumpleaños": "5 de abril",
+        "Ocupación": "Baterista de la Banda de Sideros"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "prec-yuyu-uchida",
       "historia": "precio-perfeccion",
       "nombre": "Yuyu Uchida",
-      "titulo": "¿?",
+      "titulo": "Bajista de Sideros",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/yuyu.png",
+      "descripcion": "Es la bajista de Sideros con una personalidad misteriosa, tranquila y una fascinación enorme por lo paranormal por lo que siempre anda buscando historias de fantasmas, además de objetos malditos. Es una persona amable que se vuelve muy entusiasta cuando habla de lo que le gusta.",
+      "historia_personal": "Colecciona objetos supuestamente malditos que consigue en mercados de antigüedades, subastas, o directamente de personas que quieren deshacerse de ellas. Como en su casa ya no tiene espacio, guarda la colección en una habitación oculta de FOLT decorada con velas, amuletos, objetos antiguos, donde cada pieza tiene una etiqueta con su origen, aunque nadie de la banda lo sabe porque cree que les daría miedo o que Gin le pediría tirarlo todo.",
       "datos": {
-        "Edad": "¿?",
+        "Edad": "16",
         "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Cumpleaños": "2 de agosto",
+        "Ocupación": "Bajista de la Banda de Sideros"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "prec-hunko-honjo",
+      "id": "prec-fuko-honjo",
       "historia": "precio-perfeccion",
-      "nombre": "Hunko Honjo",
-      "titulo": "¿?",
+      "nombre": "Fuko Honjo",
+      "titulo": "Guitarrista de Sideros",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/fumko.png",
+      "descripcion": "Es la segunda guitarrista de Sideros, de personalidad muy extrovertida, animada, creativa, siempre con energía positiva, lo que la convierte en la primera en proponer planes en grupo",
+      "historia_personal": "Es una guitarrista con bastante experiencia que disfruta enseñar lo que sabe, siempre con paciencia y entusiasmo, logrando que cualquier ensayo o reunión sea más divertido. Valora mucho la etapa de la juventud, por eso defiende que hay que vivirla con amistades, salidas y nuevas experiencias.",
       "datos": {
-        "Edad": "¿?",
+        "Edad": "16",
         "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Cumpleaños": "30 de agosto",
+        "Ocupación": "Segunda guitarrista de la banda de Sideros"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }],
       "opiniones": []
     },
     {
       "id": "prec-gin",
       "historia": "precio-perfeccion",
-      "nombre": "Gin",
-      "titulo": "¿?",
+      "nombre": "Ginjiro Yoshida",
+      "titulo": "Gerente",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
+      "arte": "imagenes/arte/PrecioPersonajes/gin.jpg",
+      "descripcion": "Yoshida tiene el cabello negro, ojos verdes y ojeras notables. Es el gerente de FOLT, un live house de Shinjuku, con una apariencia ruda que contrasta con su forma de ser ya que en el fondo es amable, atento, hasta algo delicado en ciertos momentos y sabe ponerse serio cuando toca poner orden.",
       "historia_personal": "",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "37",
+        "Altura": "176 cm",
+        "Cumpleaños": "15 de febrero",
+        "Ocupación": "Gerente del live house FOLT"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "prec-hiroi",
+      "id": "prec-eliza",
       "historia": "precio-perfeccion",
-      "nombre": "Hiroi",
-      "titulo": "¿?",
+      "nombre": "Eliza Shimizu",
+      "titulo": "Guitarrista de Sick Hack",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/eliza.png",
+      "descripcion": "Es la guitarrista de Sick Hack, extranjera, de cabello largo amarillo brillante y ojos azul mezclilla. Es optimista, relajada, muy divertida con una energía positiva que contagia por lo que suele ver el lado gracioso de casi cualquier situación. Mezcla frases en inglés cuando habla debido a que no domina el idioma Japones así que Shima la ayuda a estudiar, y por último a Eliza le apasiona el anime. ",
+      "historia_personal": "Se mudó a Japón por su pasión por el anime y la música, con la idea de asistir al Comiket, además de formar una banda que tocara canciones de anime. Terminó uniéndose a Sick Hack, donde aporta ánimo en los momentos tensos, sobre todo cuando los problemas del grupo se acumulan. Siempre propone seguir tocando y vender más entradas antes que preocuparse por el dinero, y disfruta convenciendo a sus compañeras de probar cosas nuevas. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "21",
+        "Altura": "167 cm",
+        "Cumpleaños": "1 de enero",
+        "Ocupación": "Guitarrista de la banda de Sick Hack"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "prec-shima",
       "historia": "precio-perfeccion",
       "nombre": "Shima",
-      "titulo": "¿?",
+      "titulo": "Baterista de Sick Hack",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/PrecioPersonajes/shima.png",
+      "descripcion": "Es la baterista de Sick Hack, de pelo corto oscuro y ojos rojos que suele vestir una chaqueta azul marino con detalles blancos, lo que hace que a primera vista parezca un chico. Es educada, seria, responsable y pierde la paciencia cuando se trata de Hiroi si hace algo que no debe. ",
+      "historia_personal": "Es amiga de Hiroi desde hace años y a pesar de la forma de actuar de su amiga, se preocupa a tal punto de tener que regañarle sin importarle que quede como la mala. Terminó la preparatoria, aunque abandonó la universidad y la más sensata de su banda lo que hizo que sea la encargada de mantener el orden.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "25",
+        "Altura": "163 cm",
+        "Cumpleaños": "15 de mayo",
+        "Ocupación": "Baterista de la Banda de Sick Hack"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "ecos-ikari-oshi-tn",
       "historia": "ecos-corazon-fugaz",
       "nombre": "Ikari Oshi Tn",
-      "titulo": "¿?",
+      "titulo": "El sol de Tracen",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/oshi1.jpg",
+      "descripcion": "Chico delgado, de cabello teñido de color naranja cobrizo brillando, algo desordenado. Es una persona extrovertida que no teme en hablarle al resto, pero a la vez siendo reservado, observador, aunque detrás de esa calma esconde una gran sensibilidad y admira profundamente a las personas capaces de sonreír sin esfuerzo, sobre todo a su hermano mayor.",
+      "historia_personal": "Creció en una familia unida junto a sus padres, su hermano mayor Kota y su hermana menor Sakura. Su vida cambió cuando su padre murió en un accidente y poco después su madre enfermó de una enfermedad rara, dejando a los tres hermanos solos. Kota se convirtió en su ejemplo a seguir ya que nunca dejo de sonreír provocando que en el futuro fuera una motivación a seguir, incluso cuando fallece. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "22",
+        "Altura": "1,70",
+        "Cumpleaños": "21 de marzo",
+        "Ocupación": "Entrenador de Umammusume"
       },
       "apariciones": [],
       "opiniones": []
@@ -2042,34 +2150,16 @@
       "id": "ecos-meisho-doto",
       "historia": "ecos-corazon-fugaz",
       "nombre": "Meisho Doto",
-      "titulo": "¿?",
+      "titulo": "Retadora implacable",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/doto.jpg",
+      "descripcion": "Es una uma musume alta, de cabello corto marrón con flequillo blanco, un ahoge con forma de signo de interrogación, ojos morados que a menudo parecen espirales, una cinta fina en la oreja derecha, además de una boca que siempre parece de gato. Es tímida, torpe, pesimista, con una autoestima tan baja como sus orejas caídas que tiemblan cuando está nerviosa, mientras que su cola se enreda porque la juguetea cuando se preocupa. Tropieza al hablar, aun así, mantiene una actitud positiva y se esfuerza por cambiar.",
+      "historia_personal": "Pese a su talento no se cree lo suficiente buena como otras Umamusume, pero aun así no piensa rendirse porque quiere asegurar un futuro mejor. Admira la seguridad desbordante de T.M. Opera O, a quien considera su modelo a seguir, además de su mejor amiga. Le gusta la comida muy picante, el enka, y debido a su forma de ser diferentes animales se le apegan. ",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "ecos-tamamo-cross",
-      "historia": "ecos-corazon-fugaz",
-      "nombre": "Tamamo Cross",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,64 cm",
+        "Cumpleaños": "25 de marzo",
+        "Ocupación": "Estudiante y corredora"
       },
       "apariciones": [],
       "opiniones": []
@@ -2078,70 +2168,98 @@
       "id": "ecos-tm-opera",
       "historia": "ecos-corazon-fugaz",
       "nombre": "Tm. Opera",
-      "titulo": "¿?",
+      "titulo": "Overlord",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/opera.png",
+      "descripcion": "Es una uma musume de cabello corto naranja claro de mechones rizados, ojos morados, una corona rosa dorada sobre la cabeza, adornos dorados en las orejas. Tiene una actitud teatral, como si actuara sobre un escenario con una risa estruendosa mientras que sus gestos son exagerados y a menudo la oirás proclamar su grandeza de una forma u otra. ",
+      "historia_personal": "Se hace llamar 'la Soberana' con su fuerte siendo las representaciones de ópera improvisadas. Pese a su ego, tiene mucho carisma, además de un deseo sincero de que sus rivales den lo mejor de sí, además de que Meisho Doto la admira profundamente.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,56 cm",
+        "Cumpleaños": "13 de marzo",
+        "Ocupación": "Estudiante y corredora"
       },
       "apariciones": [],
       "opiniones": []
     },
     {
-      "id": "ecos-ikari-sakura",
+      "id": "ecos-tamamo-cross",
       "historia": "ecos-corazon-fugaz",
-      "nombre": "Ikari Sakura",
-      "titulo": "¿?",
+      "nombre": "Tamamo Cross",
+      "titulo": "El rayo gris",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/tama.jpg",
+      "descripcion": "Es una Umamusume de baja estatura con el cabello gris muy largo, grandes ojos azules, un pequeño colmillo que asoma cuando sonríe, además de unas orejeras rojas con una diadema del mismo color. Tiene una personalidad enérgica, ingeniosa, competitiva, siempre lista para actuar y sus orejas se levantan al oír palabras como oferta mientras que su cola chispea cuando se enfada.",
+      "historia_personal": "Creció en la extrema pobreza que tuvo que mudarse constantemente. Tuvo una infancia dura la motivó a correr para saldar las deudas y sacar a su familia adelante. En Tracen se volvió una de las más destacadas con su rivalidad con Oguri Cap que terminó en una profunda amistad.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,40 cm",
+        "Cumpleaños": "23 de mayo",
+        "Ocupación": "Ex corredora"
       },
       "apariciones": [],
+      "opiniones": []
+    },
+     {
+      "id": "ecos-oguri",
+      "historia": "ecos-corazon-fugaz",
+      "nombre": "Oguri Cap",
+      "titulo": "La bestia gris",
+      "avatar": "",
+      "arte": "imagenes/arte/EcosPersonajes/oguri.jpg",
+      "descripcion": "Es una uma musume alta, tranquila, sincera y algo distraída con cabello gris largo, flequillo delantero adornado con una banda para el cabello de 5 diamantes negra y amarilla, ojos azules con reflejos azul, lleva una banda azul con una franja amarilla central alrededor de su oreja derecha. Tiene un apetito descomunal debido a que es capaz de vaciar una olla de arroz en segundos y es conocida como el 'Monstruo Gris' por su enorme fuerza en la pista.",
+      "historia_personal": "Proviene del campo donde estudió en la Academia Tracen de Kasamatsu hasta volverse imbatible en las carreras locales. Su talento llamó la atención de Symboli Rudolf, quien la escogió para trasladarse a la Academia Tracen central, llevando consigo la ilusión de apoyar a su familia. Cuando era niña, tenía las piernas muy débiles y apenas podía pararse o caminar, pero su madre le masajeaba las piernas a diario para ayudar a fortalecer sus músculos y debido a esto adquirió la capacidad de caminar y desarrolló un amor por correr que gracias a todo su esfuerzo años después de ser reconocida recibió el apodo de 'Cenicienta' y rompiendo la idea de que las Umamusume de cabello gris no pueden correr rápido. ",
+      "datos": {
+        "Edad": "¿?",
+        "Altura": "1,67 cm",
+        "Cumpleaños": " 27 de marzo",
+        "Ocupación": "Ex corredora"
+      },
+      "apariciones": [
+            {
+          "titulo": "Buscando un propósito - Umamusume",
+          "url": "https://www.wattpad.com/story/388811719-buscando-un-prop%C3%B3sito-umamusume-tn-x-umamusume"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "ecos-rudolf",
       "historia": "ecos-corazon-fugaz",
-      "nombre": "Rudolf",
-      "titulo": "¿?",
+      "nombre": "Symboli Rudolf",
+      "titulo": "Emperador",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/rudolf.jpg",
+      "descripcion": "Es la presidenta del consejo estudiantil de la Academia Tracen con cabello largo castaño oscuro y un mechón blanco en forma de media luna en el flequillo. Es serena, disciplinada, imparcial y de una gran exigencia consigo misma. Detrás de esa seriedad es protectora, se preocupa mucho por los demás, y tiene un humor cuestionable, en especial cuando hace chistes. ",
+      "historia_personal": "Es una triple coronada invicta gracias a sus talentos y siendo admirada, aunque a veces también envidiada. Su gran sueño es crear un mundo donde todas las uma musume puedan ser felices y lidera la institución junto a Air Groove, su vicepresidenta, además de Narita Brian.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "165 cm",
+        "Cumpleaños": "13 de marzo",
+        "Ocupación": "Entrenadora"
       },
-      "apariciones": [],
+      "apariciones": [
+            {
+          "titulo": "Buscando un propósito - Umamusume",
+          "url": "https://www.wattpad.com/story/388811719-buscando-un-prop%C3%B3sito-umamusume-tn-x-umamusume"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "ecos-anaxa-feinberg",
+      "id": "ecos-masami",
       "historia": "ecos-corazon-fugaz",
-      "nombre": "Anaxa Feinberg",
+      "nombre": "Masami Komiyama",
       "titulo": "¿?",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/masami.webp",
+      "descripcion": "Es la entrenadora de Tamamo Cross, quien Tamamo llama 'Komi-chan', un apodo cariñoso que muestra la confianza que hay entre ambas. Se presenta como una persona comprometida, atenta, capaz de acompañarla y apoyarla tanto en la pista como fuera de ella.",
+      "historia_personal": "Conoció a Tamamo Cross cuando el casero de su vivienda le pidió que la entrenara a la pequeña Uma musume a pesar de que estaba estudiando para ser entrenadora profesional y desde entonces ha permanecido a su lado para guiarla.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,68 cm",
+        "Cumpleaños": "27 de mayo",
+        "Ocupación": "Entrenadora"
       },
       "apariciones": [],
       "opiniones": []
@@ -2152,14 +2270,14 @@
       "nombre": "Super Creek",
       "titulo": "¿?",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/creek.jpeg",
+      "descripcion": "Es una uma musume alta, con cabello castaño rojizo recogido en una enorme trenza que llega más abajo de la espalda, atada con un gran lazo negro, ojos azules caídos que reflejan su personalidad dulce y maternal. Con un carácter tranquilo, atenta, perceptiva que se ha ganado con facilidad el apodo de 'Mamá Creek'.",
+      "historia_personal": "Debido a que ayuda en la guardería de su familia hizo que tenga un instinto de cuidar a todos, perdonando casi cualquier error y valora el crecimiento de los demás por encima de sus propios logros, aunque esa indulgencia a veces la aplica incluso consigo misma. Se especializa en carreras de larga distancia donde pasa de ser dulce a una rival feroz. ",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,68 cm",
+        "Cumpleaños": "27 de mayo",
+        "Ocupación": "Ex corredora"
       },
       "apariciones": [],
       "opiniones": []
@@ -2168,600 +2286,844 @@
       "id": "amor-still-in-love",
       "historia": "amor-monstruo",
       "nombre": "Still In Love",
-      "titulo": "¿?",
+      "titulo": "La uma yandere",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/love.jpg",
+      "descripcion": "Es una uma musume de estatura media, cabello castaño, ojos rojos tranquila con personalidad tranquila, sensata y tímida sim embargo en las carreras muestra un apetito feroz por competir causando que pase de ser una chica tímida a una posesiva capaz de devorar la pista y superar a cualquier rival.",
+      "historia_personal": "En su infancia no tuvo muchos amigos debido a su ‘otra yo’ que hacía que las personas se alejaran. Mayormente es una chica reservada que habla poco de sí misma sim embargo su otra personalidad hace que sea vista como una ‘Yandere’ sim saber que en realidad Still in Love no es así. ",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,53 cm",
+        "Cumpleaños": "2 de mayo",
+        "Ocupación": "Estudiante y corredora"
       },
-      "apariciones": [],
+      "apariciones": [
+            {
+          "titulo": "Buscando un propósito - Umamusume",
+          "url": "https://www.wattpad.com/story/388811719-buscando-un-prop%C3%B3sito-umamusume-tn-x-umamusume"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "amor-sakura-ikari",
       "historia": "amor-monstruo",
       "nombre": "Sakura Ikari",
-      "titulo": "¿?",
+      "titulo": "La luz de abril",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EcosPersonajes/sakura.png",
+      "descripcion": "Es una Uma Musume de cabello rosado, de carácter alegre y curioso, con tanta energía que no soporta quedarse quieta por mucho tiempo. Siempre lleva consigo un adorno muy preciado porque funciona como su amuleto, tiende a tener una visión optimista de la vida con una actitud contagiosa que quienes la rodean, la adoren. ",
+      "historia_personal": "Sus padres le pusieron Sakura por la flor de cerezo que representa belleza, fragilidad y la capacidad de renacer después de cada invierno. Desde pequeña creció junto a su hermano debido a que perdió a sus padres, hasta que con el pasar de los años conoció a Still in Love, con quien prometió ingresar a la Academia Tracen para enfrentarse algún día como rivales en la pista. Ese sueño de correr, sentir el viento en el rostro y competir con su mejor amiga es lo que la mueve desde entonces.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,50 cm",
+        "Cumpleaños": "5 de abril",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Buscando un propósito - Umamusume",
+          "url": "https://www.wattpad.com/story/388811719-buscando-un-prop%C3%B3sito-umamusume-tn-x-umamusume"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "saga-kusanagi-tokisaki",
       "historia": "saga-reencarnacion",
       "nombre": "Kusanagi Tokisaki",
-      "titulo": "¿?",
+      "titulo": "La Sombra Sonriente del Trio",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/tokisaki.png",
+      "descripcion": "Chico pelirojo, ojos amarillos, sonriente con un buen carisma, pero por dentro siempre siente inferior además de tener un carácter algo terco y se esfuerza hasta el final a pesar de que los resultados no siempre lleguen. Trata de ser amable con todos y le cuesta decir que no cuando alguien le pide ayuda incluso si eso significa sacrificar su propio tiempo.",
+      "historia_personal": "Es el menor de los hermanos Tokisaki, una familia famosa por el talento de todos sus miembros causando que creciera a la sombra de su familia y hermanos. Tuvo que esforzarse el doble para ganarse un lugar en a la familia mientras recibía críticas de la gente que esperaban que fuera como sus hermanos causando rechazo hacia él y que estuviera casi siempre solo hasta que conoció a Hotaro y a Yuki, quienes se convirtieron en sus primeros amigos de verdad y sin juzgarlo por su apellido. Por dentro ama a Yuki sim embargo prefiere no decirlo para no arruinar su amistad",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,60 cm",
+        "Cumpleaños": "18 de septiembre",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La saga de la reencarnacion",
+          "url": "https://www.wattpad.com/story/352330885-la-saga-de-la-reencarnaci%C3%B3n-one-shot"
+        } , 
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+        {
+          "titulo": "Mensaje de arrepentimiento Alya x Yuki x Tn - Roshidere",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "saga-yuki",
       "historia": "saga-reencarnacion",
-      "nombre": "Yuki",
-      "titulo": "¿?",
+      "nombre": "Yuki Kamihara",
+      "titulo": "La Nieve que Abriga del Trio",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/yuki.png",
+      "descripcion": "Es una chica amable, de pelo rosado y ojos azules con una personalidad algo tímida al comienzo, pero con el tiempo se vuelve alegre y positiva. Siempre esta con sus amigos Okazaki y Hotaro que cada vez que es San Valentín les prepara chocolates caseros para agradecerles por su amistad. ",
+      "historia_personal": "Vive con su hermano menor y su padre, mientras que en la escuela otras chicas solían burlarse de ella por su físico hasta que Tokisaki y Hotaro la defendieron, momento en el cual los tres se hicieron amigos cercanos y prometieron apoyarse siempre en lo que necesitaran. Ella admira y ama a Tokisaki en secreto sim embargo tampoco quiere arruinar la amistad que han llevado. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,58 cm",
+        "Cumpleaños": "7 de diciembre",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La saga de la reencarnacion",
+          "url": "https://www.wattpad.com/story/352330885-la-saga-de-la-reencarnaci%C3%B3n-one-shot"
+        } , 
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+        {
+          "titulo": "Mensaje de arrepentimiento Alya x Yuki x Tn - Roshidere",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "saga-jotaro",
+      "id": "saga-hotaro",
       "historia": "saga-reencarnacion",
-      "nombre": "Jotaro",
-      "titulo": "¿?",
+      "nombre": "Hotaro Kye",
+      "titulo": "La Luciérnaga del Trio",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/hotaro.webp",
+      "descripcion": "Es un chico bromista, algo molesto en ocasiones, pero muy leal con sus amigos a quienes siempre intenta animar incluso cuando no sabe qué decir. ",
+      "historia_personal": "También tenía problemas con su familia hasta que conoció a Kusanagi con quien terminó formando su primera amistad y poco después ambos defendieron a Yuki de unas compañeras que se burlaban de ella, lo que daría origen al trío de amigos. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
+        "Edad": "16 años",
+        "Altura": "1,68 cm",
+        "Cumpleaños": "20 de junio",
         "Ocupación": "¿?"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La saga de la reencarnacion",
+          "url": "https://www.wattpad.com/story/352330885-la-saga-de-la-reencarnaci%C3%B3n-one-shot"
+        } , 
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-kusanagi-kamado",
       "historia": "luz-esperanza",
       "nombre": "Kusanagi Kamado",
-      "titulo": "¿?",
+      "titulo": "El Baterista Inexpresivo",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/kamado.jpg",
+      "descripcion": "Es un chico tranquilo, solitario y algo perezoso que practica la batería. Casi siempre mantiene una expresión neutra que le cuesta mostrar lo que siente, pero se preocupa mucho por la gente cercana, además prefiere pasar desapercibido antes que llamar la atención de los demás.",
+      "historia_personal": "Reencarnado que vive con su madre Sakura y su hermana Emilia en su vida actual. Suele pasar el tiempo encerrado en su cuarto practicando la batería hasta que conoce a Kessoku Band. A diferencia de su contraparte alegre, él es más frio por todo lo que vivió como Kusanagi Tokisaki y razón del que decidiera empezar de cero con una forma de ser distinta de ser.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,65",
+        "Cumpleaños": "20 de enero",
+        "Ocupación": "Estudiante y baterrista temporal"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-emilia-kamado",
       "historia": "luz-esperanza",
       "nombre": "Emilia Kamado",
+      "titulo": "La Estrella Pequeña",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/emilia.jpg",
+      "descripcion": "Es la hermana menor de Kusanagi, una niña muy energética, cariñosa de pelo negro y ojos morados al igual que su madre. No duda en lanzace a abrazar a su hermano apenas lo ve y que sueña con convertirse algún día en idol.",
+      "historia_personal": "Usualmente graba a escondidas a su hermano mientras toca la batería porque quiere que el mundo vea su talento y a pesar de que Kusanagi sea algo frio, por dentro ella sabe que la aprecia. ",
+      "datos": {
+        "Edad": "12 años",
+        "Altura": "1,48",
+        "Cumpleaños": "3 de marzo",
+        "Ocupación": "Estudiante"
+      },
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-sakura",
+      "historia": "luz-esperanza",
+      "nombre": "Sakura Kamado",
       "titulo": "¿?",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/sakura.jpg",
+      "descripcion": "Es la madre de Kusanagi y de Emilia, una mujer de pelo negro, ojos morados y algo estricta pero cariñosa que no duda en corregir a sus hijos cuando se portan mal. Cocina con mucho entusiasmo pese a que casi siempre se le quema algo y se emociona fácilmente cuando ve los logros pequeños de sus hijos. ",
+      "historia_personal": "Hace años se separó de su marido debido a que no quería ir a otro país y abandonar a su familia por lo que suele trabajar mucho para mantener a sus hijos. Les tiene tanto amor a sus hijos y se preocupó mucho al ver lo aislado que era Kusanagi, razón por la cual se puso contenta al enterarse de que había entrado a una banda, hasta el punto de comprarle una batería nueva para animarlo a seguir tocando.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "35 años",
+        "Altura": "1,60 cm",
+        "Cumpleaños": "10 de abril",
+        "Ocupación": "Oficinista"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-hitori-gotou",
       "historia": "luz-esperanza",
       "nombre": "Hitori Gotou",
-      "titulo": "¿?",
+      "titulo": "Guitar Hero",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/hitori.jpg",
+      "descripcion": "Hitori es una chica introvertida que le cuesta mantener una conversación, pero por dentro es una chica amable y sincera además de tener un talento enorme con la guitarra. Tiene el pelo rosa en la cual lleva atada con un accesorio en forma de cubo azul y amarillo en el lado derecho de la cabeza con ojos color azul. Suele vestir un chándal rosa sobre su uniforme, con falda larga gris, calcetines negros y zapatos marrones.",
+      "historia_personal": "Toca desde pequeña la guitarra de su padre, convencida de que así haría amigos y entraría a una banda. Pasó la secundaria sola, practicando horas en su armario y subiendo videos con el nombre 'Guitar Hero'. Cuando conoce a Nijika, esa ilusión empieza a hacerse realidad, y poco a poco aprende a convivir con otras personas.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,56 cm",
+        "Cumpleaños": "21 de febrero",
+        "Ocupación": "Estudiante y Guitarrista de Kessoku Band"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-nijika-ijichi",
       "historia": "luz-esperanza",
       "nombre": "Nijika Ijichi",
-      "titulo": "¿?",
+      "titulo": "Baterrista de Kessoku Band",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/nijika.jpg",
+      "descripcion": "Baterista y fundadora de Kessoku Band de pelo rubio con una coleta lateral con personalidad alegre, sociable, optimista, etc. Es la que mantiene a la banda en orden en la banda y la que más se preocupa. ",
+      "historia_personal": "Perdió a su madre de pequeña y su padre casi nunca está en casa así que mira a su hermana mayor Seika como una guía. Fundó la banda para cumplir un sueño que comparte con ella: Volver a ‘Strarry’ un Live House reconocida. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,54 cm",
+        "Cumpleaños": "29 de mayo",
+        "Ocupación": "Estudiante y bateriste de la banda Kessoku Band"
       },
-      "apariciones": [],
+      "apariciones": [
+           {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-ryo-yamada",
       "historia": "luz-esperanza",
       "nombre": "Ryo Yamada",
-      "titulo": "¿?",
+      "titulo": "Bajista de Kessoku Band",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/ryo.jpg",
+      "descripcion": "Bajista de la banda, de pelo azul oscuro y expresión neutra que puede parecer ser una persona seria además de ser sarcástica, aficionada a las rarezas y escribe la mayor parte de las letras. A pesar de su forma de ser puede ser algo descuidada a tal punto de pedir dinero por lo que Nijika siempre sabe cuidarla. ",
+      "historia_personal": "Se fue de su banda anterior por diferencias creativas, y Nijika la convenció de empezar de nuevo con ella. Vive modestamente y, según se cuenta, sobrevive con comida muy barata, aunque nunca pierde la calma.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,63 cm",
+        "Cumpleaños": "18 de septiembre",
+        "Ocupación": "Estudiante y bajista de la banda Kessoku Kand"
       },
-      "apariciones": [],
+      "apariciones": [
+             {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-kita-ikuyo",
       "historia": "luz-esperanza",
       "nombre": "Kita Ikuyo",
-      "titulo": "¿?",
+      "titulo": "Vocalista y guitarrista de Kessoku band",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/kita.jpg",
+      "descripcion": "Es una guitarrista rítmica y vocalista, de pelo rojo con ojos verdes con una personalidad extrovertida, brillante, sociable, popular, muy segura pero oculta bastante inseguridad y va a la misma preparatoria que Bocchi.",
+      "historia_personal": "Fue una integrante de Kessoku band sim embargo se alejaria y regresa cuando hitori le pide que se una a la banda. Con la ayuda de Bocchi se volvió una guitarrista mejor que practica a escondidas para estar a la altura de sus compañeras.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,58 cm",
+        "Cumpleaños": "21 de abril",
+        "Ocupación": "Estudiante y vocalista de la banda Kessoku Band"
       },
-      "apariciones": [],
+      "apariciones": [
+           {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
-    {
-      "id": "luz-kotetsu",
-      "historia": "luz-esperanza",
-      "nombre": "Kotetsu",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
+  
     {
       "id": "luz-ayato",
       "historia": "luz-esperanza",
-      "nombre": "Ayato (Tn Hiroko)",
-      "titulo": "¿?",
+      "nombre": "Ayato",
+      "titulo": "El reencarnado en Bocchi the Rock",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/ayato.png",
+      "descripcion": "Es un hombre despreocupado, bromista, rara vez tiene dinero, miente con facilidad incluso sobre su propio nombre y disfruta molestar a sus compañeros, pero sobre todo a Seika. Tiene la apariencia de Yato de Noragami y tiene la costumbre de decir cualquier cosa en cualquier conversación sin importar si los demás las entienden.",
+      "historia_personal": "Reencarnó mucho antes que Kusanagi por lo que conoce gran parte de lo que va a suceder y en el pasado perdió a sus amigos reencarnados por lo que tuvo que alejarse para no desviar la historia mientras cuida a su hermana, cuyos tratamientos son tan caros que trabaja más de lo normal para pagarlos y motivo por el que siempre anda sin dinero, pero decidido a seguir. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "30 años",
+        "Altura": "1,73 cm",
+        "Cumpleaños": "27 de diciembre",
+        "Ocupación": "Mensajero y repartidor."
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-seika-ijichi",
       "historia": "luz-esperanza",
       "nombre": "Seika Ijichi",
-      "titulo": "¿?",
+      "titulo": "Gerente de Starry",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/seika.jpg",
+      "descripcion": "Hermana mayor de Nijika y gerente de STARRY con una actitud algo seria y distante, pero tiene un lado suave que casi nunca enseña. Es rubia y exigente con las bandas que tocan allí.",
+      "historia_personal": "Fue guitarrista principal de una banda universitaria hasta que su madre falleció en un accidente de tráfico cuando ella tenía veintiún años, momento en que se refugió en la música dejando a Nijika sola, aunque al ver que la música también salvaba a su hermana abandonó su grupo para abrir Starry, local donde recibe a bandas jóvenes, mientras mantiene una amistad caótica con Hiroi, que fue su junior en la universidad.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "30",
+        "Altura": "1,66 cm",
+        "Cumpleaños": "24 de diciembre",
+        "Ocupación": "Gerente del live house Starry"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-pa-san",
       "historia": "luz-esperanza",
-      "nombre": "Pa San",
-      "titulo": "¿?",
+      "nombre": "Pa-San",
+      "titulo": "Alto otogi",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/pa.jpg",
+      "descripcion": "Chica con piel pálida, pelo negro largo, ojos verdes, un piercing en el labio, ropa oscura con una gargantilla, pero pese a su apariencia es alguien amable, tranquila y atenta. Además de ser una streamer que le encanta mucho los videojuegos. ",
+      "historia_personal": "Abandonó la preparatoria en temprana edad y trabaja como técnica de sonido de Starry apoyando a Seika mientras sigue manteniendo su carrera como VTuber con el nombre Alto Otogi y evita hablar de su nombre real hasta el punto de incomodarse cuando se lo preguntan.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
+        "Edad": "24",
+        "Altura": "1,62 cm",
+        "Cumpleaños": "1 de noviembre",
         "Ocupación": "¿?"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-hiroi-kikuri",
       "historia": "luz-esperanza",
       "nombre": "Hiroi Kikuri",
+      "titulo": "Bajista de Sick Hack",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/hiroi.jpg",
+      "descripcion": "Chica de   pelo rosa oscuro en una trenza lateral, ojos magenta-púrpura, un cuerpo muy delgado y una afición enorme por el sake barato en caja. Es la bajista, vocalista y líder de la banda SICK HACK que toca rock psicodélico en el local FOLT de Shinjuku, aunque cuando está sobria es tímida, cautelosa, nerviosa, casi idéntica a Hitori.",
+      "historia_personal": "Fue una chica reservada hasta la preparatoria que empezó a beber para controlar los nervios en los escenarios, mientras que en la universidad se unió al club de música ligera por admirar a Seika. Ella forma la banda con su amiga Shima Iwashita a formar SICK HACK, así que vive endeudada en un departamento viejo sin baño, aunque se convierte en una mentora informal para Bocchi porque ve en ella su propio pasado.",
+      "datos": {
+        "Edad": "18 años",
+        "Altura": "1,58 cm",
+        "Cumpleaños": "1 de septiembre",
+        "Ocupación": "Bajista y Volcalista de la banda Sick Hack"
+      },
+      "apariciones": [
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
+      "opiniones": []
+    },
+      {
+      "id": "luz-tomoe",
+      "historia": "luz-esperanza",
+      "nombre": "Tomoe Tokisaki",
+      "titulo": "La karateca Tokisaki",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/tomoe.jpg",
+      "descripcion": "Es la única hermana de los Tokisaki y siendo la más fuerte tanto física como emocionalmente además de cariñosa con Kusanagi. Tiene tendencia a hacerle bromas pesadas con un enorme talento para el karate junto a cualquier deporte de combate.",
+      "historia_personal": "Es la tercera hermana y famosa en todo el país por ganar grandes competencias de karate. Le enseñó a Kusanagi a defenderse pidiéndole que nunca usara esa fuerza para lastimar a nadie y cuando su hermano se sintió mal lo consuela dejándolo descansar en su regazo mientras le recuerda que nadie es perfecto.",
+      "datos": {
+        "Edad": "20 años",
+        "Altura": "1, 70 cm",
+        "Cumpleaños": "17 de julio",
+        "Ocupación": "Deportista Karateca"
+      },
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-leonel",
+      "historia": "luz-esperanza",
+      "nombre": "Leonel Hayase",
       "titulo": "¿?",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/leo.jpg",
+      "descripcion": "Es un chico hiperactivo y bromista que se parece mucho a Hotaro en su forma de ser, aunque es aún más inquieto. Le encantan los videojuegos hasta el punto de contar los días para estrenar uno nuevo y resulta molesto cuando se emociona pero se muestra leal con sus amigos e intenta hacerlos reír siempre.",
+      "historia_personal": "Es compañero de clase de Kusanagi desde el principio y se convirtió en su amigo más cercano con quien sale a comprar videojuegos o a comer mientras se queja de lo poco que se estudia. Mantiene una relación de constantes peleas con Yukino aunque en el fondo se llevan mejor de lo que aparentan. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,68 cm",
+        "Cumpleaños": "29 de agostro",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-Yukino",
+      "historia": "luz-esperanza",
+      "nombre": "Yukino Shirasaki",
+      "titulo": "Presidenta del primero B",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/yukino.webp",
+      "descripcion": "Es una chica seria, directa y de carácter fuerte que siempre dice lo que piensa que le gusta tomar el control al organizar al grupo porque le molesta la gente irresponsable sim embargo detrás de esa actitud es igualmente de amable ( Con quienes nomas les cae bien)",
+      "historia_personal": "Es compañera de clase de Kusanagi, mejor amiga de Lois, encargada de organizar las actividades del festival como de repartir las tareas del grupo y mantiene discusiones constantes con Leonel",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,54 cm",
+        "Cumpleaños": "6 de febrero",
+        "Ocupación": "Estudiante"
+      },
+      "apariciones": [
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-lois",
+      "historia": "luz-esperanza",
+      "nombre": "Lois Hanamura",
+      "titulo": "Tesorera del primero B",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/lois.jpg",
+      "descripcion": "Es una chica amable, alegre, bromista y de las pocas compañeras que trata bien a todos en el salón. Siempre esta junto a Yukino quien se la pasa discutiendo con Leonel, pero sin interferir. ",
+      "historia_personal": "Es compañera de clase de Kusanagi junto a Leonel, Hitori y Yukine, participa en el festival escolar ayudando con los preparativos al lado de Yukino y es fan de Kessoku Band que intenta no perderse un concierto. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,53 cm",
+        "Cumpleaños": "21 de marzo",
+        "Ocupación": "Estudiante"
+      },
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-kasuo",
+      "historia": "luz-esperanza",
+      "nombre": "Kasuo Mori",
+      "titulo": "El hijo de los Mori",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/kasuo.jpg",
+      "descripcion": "Es el líder y baterista de su banda, un chico amable y perseverante que al principio parece tímido, pero se vuelve muy decidido cuando se trata de su música. Le gusta rodearse de gente con quien tocar de verdad por eso siempre busca nuevos compañeros. ",
+      "historia_personal": "Hijo de una famosa pareja de banda, tiene una hermana llamada Ame con quien de pequeño quiso tocar la guitarra, pero con el pasar de los años y más con el fallecimiento de sus padres ese sueño de espumaría. En la actualidad vive junto a su hermana quien ya se rindió en la música, pero él no, incluso formo una banda temporal para enseñarle a su hermana y a sus padres que su legado no se ha ido. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,70",
+        "Cumpleaños": "23 de septiembre",
+        "Ocupación": "Estudiante y baterrista "
+      },
+      "apariciones": [
+         {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "luz-zackdock",
       "historia": "luz-esperanza",
       "nombre": "Zackdock",
-      "titulo": "¿?",
+      "titulo": "El reencarnado de 5 vidas",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/zack.jpg",
+      "descripcion": "Su apariencia es la de Gilgamesh de Fate con cabello rubio, ojos rojos, educado, tranquilo y muy calculador sim embargo eso fachada desaparece cuando vee que la historia es alterada, cuida sus modales incluso en situaciones tensas pues casi nunca altera la voz, mientras que su risa suele ser irónica cuando algo le resulta ridículo.",
+      "historia_personal": "Es un reencarnado que a diferencia de los demás nunca intervino en la historia del mundo, pues se mantuvo siempre en las sombras convencido de que los reencarnados alteran el curso natural de los acontecimientos. Los ve como origen de muchas tragedias, por eso piensa que la historia debe seguir su rumbo sin intervenciones que cualquier sacrificio vale la pena si trae paz, ya que para él los lazos personales son pasajeros mientras que la estabilidad del mundo perdura.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Altura": "1,74",
+        "Cumpleaños": "1 de enero",
+        "Ocupación": "Reencarnado"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "mens-tn-ozora",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Tn Ozora",
-      "titulo": "¿?",
+      "id": "luz-nene",
+      "historia": "luz-esperanza",
+      "nombre": "Nene Ooyama",
+      "titulo": "Discípula de Kessoku Band",
       "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/nene.jpg_large",
+      "descripcion": "Chica energética de pelo castaño largo, ojos amarillos y siendo un año menor que Hitori y Kita. Trabaja a tiempo parcial en Starry con una energía desbordante. Tiene una personalidad muy directa y una gran curiosidad por cualquier, aunque su entusiasmo a veces agota a quienes la rodean.",
+      "historia_personal": "Dejó el baloncesto porque su estatura baja la limitaba por lo que buscó otra pasión hasta que vio tocar a Kessoku Band, momento en que decidió formar su propia banda tocando la guitarra. Es muy fanática de Hitori que la sigue a todas partes hasta el punto de asustarla. ",
+      "datos": {
+        "Edad": "14 años",
+        "Altura": "1,46 cm",
+        "Cumpleaños": "¿?",
+        "Ocupación": "Estudiante y guitarrista"
+      },
+      "apariciones": [
+          {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }, 
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "luz-erena",
+      "historia": "luz-esperanza",
+      "nombre": "Erena Hinata",
+      "titulo": "Raphael",
+      "avatar": "",
+      "arte": "imagenes/arte/EsperanzaPersonajes/ere.jpg",
+      "descripcion": "Tiene el cabello negro y largo con las puntas teñidas de verde y al igual que Nene trabaja a tiempo parcial en Starry. Es una superfán que gasta su dinero en artículos de las bandas que admira siendo Ryo su favorita, mientras toca el bajo junto a Nene. ",
+      "historia_personal": "Formó parte del grupo de idols Tenshi no Cuticle con el nombre Raphael, hasta que la agrupación se disolvió tras una polémica en internet causada por una integrante, circunstancia que despertó su deseo de estar en una banda y razón por la que entró al equipo de Starry donde conoce a Nene quien intenta reclutarla enseguida.",
       "datos": {
         "Edad": "¿?",
-        "Altura": "¿?",
+        "Altura": "1,66 cm",
         "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Ocupación": "Estudiante y bajista"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
+      "opiniones": []
+    },
+    
+    {
+      "id": "mens-tn-ozora",
+      "historia": "mensaje-arrepentimiento",
+      "nombre": "Tn Ozora Martínez",
+      "titulo": "El 7 del Seirei",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Es un adolescente latinoamericano bromista con una actitud despreocupada y aficionado al fútbol hasta el punto de imaginar partidos enteros en su cabeza con el sueño de ser delantero profesional como Messi o cristiano Ronaldo, pero detrás de esa sonrisa esconde una inseguridad que se refugia en la risa.",
+      "historia_personal": "Nació en un país latinoamericano pobre donde su padre trabajó como guardia para mantenerlo mientras que su madre era japonesa y quien los abandonó. Tras un malentendido en el que fue convertido en el villano por defender a su mejor amiga en toda la ciudad por lo que su padre lo impulsó a presentarse a un concurso para estudiar en el extranjero que al aprobarlo comenzó una nueva vida en Japón. ",
+      "datos": {
+        "Edad": "16 años",
+        "Altura": "1, 73 cm",
+        "Cumpleaños": "24 de junio",
+        "Ocupación": "Estudiante y futbolista"
+      },
+      "apariciones": [
+         {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "mens-alya-mikhailovna-kujou",
       "historia": "mensaje-arrepentimiento",
       "nombre": "Alya Mikhailovna Kujou",
-      "titulo": "¿?",
+      "titulo": "Princesa de Hielo",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una chica rusa de cabello plateado y ojos azules con un carácter algo serio y distante que le dio fama de inalcanzable. Tiene notas sobresalientes y una costumbre de murmurar frases en ruso cuando se sonroja pensando que nadie la entiende, tan orgullosa que le cuesta pedir ayuda.",
+      "historia_personal": "Nació en Rusia en una familia de padre ruso y madre japonesa en la cual vivió allí hasta los cinco años para que luego ir a Japón. De pequeña cuando le tocaba liderar actividades escolares sus compañeros dejaban que ella hiciera todo el trabajo sola causando que un día ella se esforzara de más para tener una mejor calificación, pero debido a sus compañeros no lo consiguió que desde ahí quiso hacer todo sola porque creía que confiar en los demás solo traía arrepentimiento y la fue alejando de la gente hasta quedarse con muy pocos amigos. Pasó el examen de transferencia y estudia en la academia Seirei como tesorera del consejo estudiantil.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,70 cm",
+        "Cumpleaños": "7 de noviembre",
+        "Ocupación": "Estudiante y miembro del consejo estudiantil"
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-masha-mikhailovna",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Masha Mikhailovna",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "mens-yuki-suou",
       "historia": "mensaje-arrepentimiento",
       "nombre": "Yuki Suou",
-      "titulo": "¿?",
+      "titulo": "La Princesa Noble",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una joven de cabello negro y ojos púrpura, estatura baja de modales elegantes, amable, inteligente, estratégica y muy competitiva con un carácter seguro mientras oculta la enorme presión de su familia.",
+      "historia_personal": "Pertenece a la familia Suou, una familia prestigiosa que desde pequeña vio cómo sus padres se separaron y la familia se partió, quedándose ella con su madre Yumi y su hermano Masachika Kuze quien años después abandonaría a la familia Suou. Desde entonces carga con el deber de mantener el nombre de su casa en alto, en la secundaria ganó las elecciones y ahora busca la presidencia del consejo estudiantil de la academia.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,50 cm",
+        "Cumpleaños": "12 de marzo",
+        "Ocupación": "Estudiante y miembro del consejo estudiantil"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
-    {
-      "id": "mens-yoshinori",
+     {
+      "id": "mens-ayano",
       "historia": "mensaje-arrepentimiento",
-      "nombre": "Yoshinori",
-      "titulo": "¿?",
+      "nombre": "Ayano Kimishima",
+      "titulo": "Sirvienta Silenciosa",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una joven de cabello negro recogido en una coleta baja, ojos púrpuras, estatura baja, movimientos robóticos, inexpresiva en público y capaz de ocultar cualquier rastro de emoción detrás de su rostro sereno.",
+      "historia_personal": "Trabaja como sirvienta para la prestigiosa familia Suou, habiendo servido directamente a Yuki y Masachika desde la infancia. Decidió dedicar su vida a ellos en segundo de primaria, viéndose a sí misma como una herramienta para sus amos y que actualmente sirviendo a yuki además de formar parte del consejo estudiantil como encargada de asuntos generales. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,54 cm",
+        "Cumpleaños": "21 de febrero",
+        "Ocupación": "Estudiante, sirvienta y miembro del consejo estudiantil"
       },
-      "apariciones": [],
+      "apariciones": [
+             {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "mens-gotou",
       "historia": "mensaje-arrepentimiento",
-      "nombre": "Gotou",
-      "titulo": "¿?",
+      "nombre": "Kamihara Gotou",
+      "titulo": "La dama de nieve de Seirei",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una chica de cabello blanco, ojos azules y piel clara, serena y responsable, de mirada amable con una paciencia que le permite calmar las discusiones más tensas, aficionada a ir a la playa al amanecer para despejar la mente y a pesar de su amabilidad, ella también por dentro carga con un cansancio que casi nadie nota.",
+      "historia_personal": "Es la reencarnación de una joven Yuki en la cual tuvo grupo de 3 amigos con quien creció, un lazo tan fuerte que guarda un arrepentimiento enorme por lo ocurrido entre ambos. Esa pérdida marcó su forma de ser y por eso en la actualidad (nueva vida) vive en Japón junto a su madre intentando mantener la paz a su alrededor mientras conserva el deseo de volver a encontrarse con esa persona. Entró al consejo estudiantil para ayudar a las personas que son menospreciadas o que son ignoradas por las personas. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,58 cm",
+        "Cumpleaños": "21 de septiembre",
+        "Ocupación": "Estudiante y miembro del consejo estudiantil"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        },
+         {
+          "titulo": "La saga de la reencarnacion",
+          "url": "https://www.wattpad.com/story/352330885-la-saga-de-la-reencarnaci%C3%B3n-one-shot"
+        } , 
+        {
+          "titulo": "Luz de esperanza - Bocchi the rock",
+          "url": "https://www.wattpad.com/story/333730625-la-luz-de-la-esperanza-bocchi-the-rock"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "mens-karen",
+      "id": "mens-yoshinori",
       "historia": "mensaje-arrepentimiento",
-      "nombre": "Karen",
-      "titulo": "¿?",
+      "nombre": "Yoshinori Nakagawa",
+      "titulo": "El estratega de Seirei",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es un chico de cabello oscuro que habla español, bromista y sarcástico con quien le cae bien porque cree que entre más insultos hay más confianza. De apariencia relajada que esconde una mente calculadora que mueve las piezas con calma antes de que los demás lo noten.",
+      "historia_personal": "Nació en un país de habla hispana que llegó a la presidencia del consejo estudiantil con un motivo muy personal de estar cerca de la chica que ama y desde ese cargo se esfuerza en que la academia funcione manteniendo siempre un equilibrio.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,75 cm",
+        "Cumpleaños": "20 de julio",
+        "Ocupación": "Estudiante y miembro del consejo estudiantil"
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-ayano",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Ayano",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-taniyama",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Taniyama",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-miyamae",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Miyamae",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-sora-kimichi",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Sora Kimichi",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "mens-saito",
-      "historia": "mensaje-arrepentimiento",
-      "nombre": "Saito",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "mens-extra-kun",
       "historia": "mensaje-arrepentimiento",
-      "nombre": "Extra-kun",
-      "titulo": "¿?",
+      "nombre": "Takaomi Hirano",
+      "titulo": "Extra - kun",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es un chico bromista que lanza comentarios provocadores a todos y una obsesión por la popularidad con las chicas, de aspecto corriente que pasa desapercibido con un corazón noble y no deja solos a sus compañeros cuando lo necesitan.",
+      "historia_personal": "Entró al club de fútbol de la academia Seirei y es el mejor compañero del protagonista con un deseo de ser el mejor jugador del país sim embargo casi siempre pasa de desapercibido tanto por el capitán o su amigo. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1, 69 cm",
+        "Cumpleaños": "29 de febrero",
+        "Ocupación": "Estudiante y futbolista"
       },
-      "apariciones": [],
+      "apariciones": [
+            {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "mens-capitan",
+      "id": "mens-taniyama",
       "historia": "mensaje-arrepentimiento",
-      "nombre": "Capitán",
-      "titulo": "¿?",
+      "nombre": "Sayaka Taniyama",
+      "titulo": "La prodigio que no se rinde",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una chica de la clase F, decidida y directa, que dice las cosas a la cara y se muestra leal a lo que considera justo, con un carácter fuerte que la lleva a plantarse frente a cualquiera debido a que confia en su mente.",
+      "historia_personal": "Competía en las elecciones de la secundaria con la esperanza de ganar la presidencia sim embargo perdió contra Yuki Suou sim embargo no se rendiría que una vez llego a la preparatoria siguió con más determinación para ganarse ese puesto. Estudia en la clase F de la academia Seirei y es amiga de Miyamae.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
+        "Edad": "16 años",
+        "Altura": "1,62 cm",
+        "Cumpleaños": "2 de agosto",
+        "Ocupación": "Estudiante y aspirante al consejo estudiantil"
+      },
+      "apariciones": [
+           {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "mens-miyamae",
+      "historia": "mensaje-arrepentimiento",
+      "nombre": "Nonoa Miyamae",
+      "titulo": "Reina de la Información",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Es una chica de cabello amarillo con un mechón que sobresale, muy popular en la academia. Con un talento especial para reunir información, tranquila y estratégica incluso bajo presión.",
+      "historia_personal": "Es la mejor amiga de la infancia de Sayaka Taniyama a quien ayudo a luchar para conseguir al consejo, pero sin éxito. Aunque aparenta ser una chica amigable, alegre y despreocupada, detrás de esa fachada oculta una personalidad calculadora y manipuladora",
+      "datos": {
+        "Altura": "1,67 cm",
+        "Cumpleaños": "13 de mayo",
         "Ocupación": "¿?"
+      },
+      "apariciones": [
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "egoi-saito",
+      "historia": "egoista-roshidere",
+      "nombre": "Saito Ijichi",
+      "titulo": "el Guerrero Navaja",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Es un delantero que tiene un carácter explosivo y seguro de sí mismo que a pesar de tener esa actitud se controla cuando es necesario causando que se convirtiera en el capitán de su equipo. Tiene una sonrisa arrogante que usa para provocar a sus rivales y es seguro de sí mismo.",
+      "historia_personal": "Capitan del equipo de la preparatoria Gakuen con su equipo de jugadores como Okita y la portera karateca Yor, los cuales entrenan sin descanso. Todos con el objetivo de llevarse el trofeo de las nacionales antes de graduarse. ",
+      "datos": {
+        "Edad": "16 años",
+        "Altura": "1,68 cm",
+        "Cumpleaños": "30 de julio",
+        "Ocupación": "Estudiante y jugador"
       },
       "apariciones": [],
       "opiniones": []
     },
-    {
-      "id": "egoi-tn",
+     {
+      "id": "egoi-matsuyama",
       "historia": "egoista-roshidere",
-      "nombre": "Tn",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "egoi-alya",
-      "historia": "egoista-roshidere",
-      "nombre": "Alya",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "egoi-masha",
-      "historia": "egoista-roshidere",
-      "nombre": "Masha",
+      "nombre": "Muy pronto personajes nuevos",
       "titulo": "¿?",
       "avatar": "",
       "arte": "",
@@ -2780,144 +3142,119 @@
       "id": "razo-tn-tokisaki",
       "historia": "razon-proteger-sonrisas",
       "nombre": "Tn Tokisaki",
-      "titulo": "¿?",
+      "titulo": "El maldito de los tokisaki",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chico de primer año de preparatoria con una mirada cansada debido a los años de desprecio, pero no guarda rencor a nadie debido a su personalidad amable, humilde y servicial que trabaja a tiempo parcial en Starry. A pesar de demostrar que es alguien bueno en su interior sigue creyendo que no lo es. ",
+      "historia_personal": "Nació dentro de los Tokisaki, una de las cinco familias admiradas por la sociedad, pero fue el único sin un talento especial por lo que sus padres y la sociedad lo trataron como una deshonra. Cuando intento terminar con todo, conoció Ai, una chica de pelo verde que le dio la fuerza para no rendirse y que desde ese día intenta ser alguien mejor para definir que su valor no depende de su apellido.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,65 cm",
+        "Cumpleaños": "14 de marzo",
+        "Ocupación": "Estudiante y tecnico de un Live house"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "razo-satoru-haise",
       "historia": "razon-proteger-sonrisas",
       "nombre": "Satoru Haise",
-      "titulo": "¿?",
+      "titulo": "El prodigio adaptable",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chico de pelo blanco, lentes circulares y ojos de color celeste que gracias a ese aspecto es muy popular en la preparatoria Shuka con una actitud optimista que se la pasa bromeando pero que esconde bajo su carisma un pasado que prefiere no recordar mientras protege a sus camaradas. ",
+      "historia_personal": "A pesar de ser alguien popular no menosprecia a la gente de su alrededor y más a Tokisaki quien le recuerda a un ser querido por lo que decide ayudarlo. Actualmente trabaja como manager de Sideros quienes lo han acompañado desde antes y superar su pasado, mismo que es un misterio para todos. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,74 cm",
+        "Cumpleaños": "20 de diciembre",
+        "Ocupación": "Estudiante, manager, tecnico, electricista, etc."
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-allen-nanakase",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Allen Nanakase",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-nijika-ijichi",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Nijika Ijichi",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-ryo-yamada",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Ryo Yamada",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-hitori-gotou",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Hitori Gotou",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El precio de la perfección",
+          "url": "https://www.wattpad.com/story/365711810-el-precio-de-la-perfecci%C3%B3n-tn-x-bocchi-the-rock-x"
+        }, 
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "razo-sasaki-tsuguko",
       "historia": "razon-proteger-sonrisas",
       "nombre": "Sasaki Tsuguko",
-      "titulo": "¿?",
+      "titulo": "Sasa",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica de pelo verde, amable, tranquila, de voz serena, amigable y compañera de salón con Kita y Hitori.",
+      "historia_personal": "Es amiga de la infancia de Kita y que apoya a sus amigos sin importarle los prejuicios, le tienda la mano a cualquier persona y ordena al grupo en los trabajos de clase.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,58 cm",
+        "Cumpleaños": "2 de abril",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "razo-posion-yami",
+      "historia": "razon-proteger-sonrisas",
+      "nombre": "Aiko Satou",
+      "titulo": "Poison♡Yami",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Escritora y periodista de baja estatura con pelo negro, suéter rosado y suele ser cuidadosa con su identidad mientras busca bandas con talento para promocionarlas en su blog.",
+      "historia_personal": "Contribuye a sitios de información musical con la esperanza de descubrir grupos que merezcan fama así que entrevista a bandas hasta que se fija en Kessoku Band quien desprecia a sus integrantes a excepción de Hitori Gotou por tener talento comparado a su banda.",
+      "datos": {
+        "Edad": "23 años",
+        "Altura": "1,57 cm",
+        "Cumpleaños": "14 de febrero",
+        "Ocupación": "Periodista"
+      },
+      "apariciones": [
+         {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "razo-emiko-shinomiya",
       "historia": "razon-proteger-sonrisas",
       "nombre": "Emiko Shinomiya",
-      "titulo": "¿?",
+      "titulo": "La Reina tactica",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica adinerada con un carácter fuerte, orgullosa, competitiva y amable cuando se tranquiliza. Ella tiene envidia hacia quienes le roban protagonismo que la lleva a perder el control con facilidad.",
+      "historia_personal": "Viene de la familia Shinomiya, una de las 5 familias admiradas por la sociedad que se caracteriza por tener familiares talentosos hombres en el deporte de peleas y mujeres inteligentes. Emiko estudia en Shuka rodeada de amigos populares hasta que la fama de Haise empieza a opacarla y que la llena de resentimiento hacia él. Al igual que el resto de la sociedad desprecia a los sin talento como Tokisaki que lo considera el peor de su generación y entrena en secreto para luchas ya que las mujeres de su familia están prohibidas que se especialicen en esto. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,65 cm",
+        "Cumpleaños": "6 de enero",
+        "Ocupación": "Estudiante y modelo"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
@@ -2927,51 +3264,66 @@
       "titulo": "¿?",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Tiene un carácter arrogante, frío y un aire de superioridad sim embargo nunca subestima a sus oponentes. ",
+      "historia_personal": "Viene de una de las 5 familias admiradas de la sociedad con una familia que se caracteriza en tener talentos en el deporte. Estudia en la misma preparatoria que Ryo y Nijika pero sin hacer contacto por un problema que tuvieron en el pasado. Mantiene contacto con Emiko para conversar de sus rivalidades familiares además de planear acciones contra las otras familias.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "",
+        "Cumpleaños": "10 de octubre",
+        "Ocupación": "Estudiante y karateca"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "razo-toho-yamagawa",
       "historia": "razon-proteger-sonrisas",
       "nombre": "Toho Yamagawa",
-      "titulo": "¿?",
+      "titulo": "El cazatalentos",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Pertenece a la familia de los Yamagawa con su carácter calculador, elegante, persuasivo y una sonrisa que oculta sus intenciones ambiciosas. ",
+      "historia_personal": "Es uno de las 5 familias famosas que se caracteriza por encontrar talentos para hacerlos brillar con su influencia hasta alcanzar la cima.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,70 cm",
+        "Cumpleaños": "17 de julio",
+        "Ocupación": "Estudiante y manager"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "razo-ai-oshino",
       "historia": "razon-proteger-sonrisas",
-      "nombre": "Ai Oshino",
-      "titulo": "¿?",
+      "nombre": "Ai Kamihara",
+      "titulo": "La idol brillante",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica de pelo verde y ojos azules con personalidad empática, amable, de sonrisa cálida y querer ser más que un rostro bonito.",
+      "historia_personal": "Conoce a Tokisaki cuando este iba a rendirse por lo que le ayuda a levantarse de su situación provocando que se hagan amigos hasta que un patrocinador la recluta como idol y en el momento en que se separan hacen la promesa de volver a verse.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,60 cm",
+        "Cumpleaños": "21 de diciembre",
+        "Ocupación": "Estudiante y idol"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
@@ -2981,375 +3333,478 @@
       "titulo": "¿?",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una estudiante de la preparatoria Shuka con carácter amable, educada, pelo negro largo y ojos morados.  ",
+      "historia_personal": "Al inicio odia a Haise, pero a medida pasa el tiempo se da cuenta que el camino que está siguiendo y decide cambiar. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,57 cm",
+        "Cumpleaños": "1 de abril",
+        "Ocupación": "Estudiante"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "razo-nene-ohyama",
+      "id": "razo-urami",
       "historia": "razon-proteger-sonrisas",
-      "nombre": "Nene Ohyama",
-      "titulo": "¿?",
+      "nombre": "Urami Takashi",
+      "titulo": "La sombra",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Joven de cabello negro con ojos rojos de personalidad seria, reservado, de pocas palabras, atento a cada detalle de lo que ocurre a su alrededor, además de ágil y tiene un orgullo que le hace detestar que lo subestimen.",
+      "historia_personal": "Creció en un entorno humilde donde aprendió desde pequeño a obedecer, a observar en silencio además de valerse por sí mismo que lo hizo madurar antes que otros chicos de su edad. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "16 años",
+        "Altura": "1,68 cm",
+        "Cumpleaños": "11 de mayo",
+        "Ocupación": "Sirviente"
       },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-posion-yami",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Posion Yami",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-aiko-sato",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Aiko Sato",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "razo-aiko-takashi",
-      "historia": "razon-proteger-sonrisas",
-      "nombre": "Aiko Takashi",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "La razon para proteger sus sonrisas ",
+          "url": "https://www.wattpad.com/story/348131839-la-razon-para-proteger-sus-sonrisas-tn-x-harem"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "sign-tn-urami",
       "historia": "significado-vida",
       "nombre": "Tn Urami",
-      "titulo": "¿?",
+      "titulo": "El mostruo humano",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es uno de los pocos hombres en un mundo donde la mayoría son mujeres con una personalidad al inicio tímido y callado pero muy observador. Con el tiempo se volvería algo desinteresado con la visión ver ganar a los monstruos, incluso si el mismo tiene que volverse uno.",
+      "historia_personal": "Desde niño las niñas siempre le hacían ser monstruo que años después desarrolló un profundo resentimiento hacia la sociedad y las chicas mágicas, a quienes percibía como hipócritas y abusivos que ganaban solo por ser 'populares'. Después de tantos eventos termina en el bando de Enormita, junto a Utena y Kiwi las cuales son sus compañeras de salon.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,68 cm",
+        "Cumpleaños": "5 de agosto",
+        "Ocupación": "estudiante y villano de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "sign-utena-hiragi",
+      "id": "sign-utena-hiiragi",
       "historia": "significado-vida",
-      "nombre": "Utena Hiragi",
-      "titulo": "¿?",
+      "nombre": "Utena Hiiragi",
+      "titulo": "Magia Baiser",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica de pelo negro corto, tímida, introvertida y aficionada a coleccionar objetos de chicas mágicas. Desde pequeña las admira hasta el punto de pasar su tiempo libre reuniendo información en lugar de socializar, aunque detrás de esa fachada amable se esconde una vena sádica y que mas aparece cuando se transforma.  ",
+      "historia_personal": "Siempre quiso ser una chica mágica para proteger hasta que Venalita, una criatura magia le ofrece poderes con la promesa de volverse una de ellas que al aceptar se convierte en una chica mágica sim embargo es una villana y termina siendo reclutada por Enormita así que se enfrenta a Tres Magia. Mientras descubre que disfruta poniéndolas a prueba, aunque también se siente culpable porque en el fondo quiere que sus ídolas mantengan su orgullo, razón por la que vive dividida entre su admiración sincera y su nueva faceta de sádica. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,49 cm",
+        "Cumpleaños": "14 de noviembre",
+        "Ocupación": "estudiante y villana de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
       "opiniones": []
     },
-    {
-      "id": "sign-miyuki-yamazaki",
-      "historia": "significado-vida",
-      "nombre": "Miyuki Yamazaki",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
+    
     {
       "id": "sign-kiwi-aragata",
       "historia": "significado-vida",
       "nombre": "Kiwi Aragata",
-      "titulo": "¿?",
+      "titulo": "Leopard",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una chica con una personalidad enérgica, impulsiva, algo infantil y se pone celosa cuando alguien es muy cariñoso con Utena que al transformarse tiene un atuendo militar de tonos verdes. ",
+      "historia_personal": "Detesta la fama que las chicas mágicas obtenían en redes sociales mientras ella se sentía ignorada, motivo por el que Venalita la recluta y pasa a formar parte de Enormita. Allí se convierte en una de las más fieles aliadas de Utena y comparte equipo con Korisu con ambas protegiéndose en el campo de batalla.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,48 cm",
+        "Cumpleaños": "6 de julio",
+        "Ocupación": "estudiante y villana de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "sign-morino-korisu",
       "historia": "significado-vida",
       "nombre": "Morino Korisu",
-      "titulo": "¿?",
+      "titulo": "Nero Alice",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una niña pequeña que no suele hablar, aficionada a los muñecos de peluche, tranquila, analítica y controla muñecos para atrapar a sus oponentes dentro de un espacio parecido a una casa de muñecas.",
+      "historia_personal": "Es presentada por Venalita como la nueva integrante de Enormita y se vuelve parte del grupo con Utena además de Kiwi, quien rompe a menudo sus juguetes sin querer. A pesar de ser la más pequeña de todo el equipo suele ser la más racional mientras mantiene amistad con Nemo por su gusto compartido hacia los videojuegos.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "9 años",
+        "Altura": "1,24 cm",
+        "Cumpleaños": "8 de febrero",
+        "Ocupación": "estudiante y villana de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
       "opiniones": []
     },
-    {
-      "id": "sign-tatsumi-yukine",
-      "historia": "significado-vida",
-      "nombre": "Tatsumi Yukine",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "sign-minakami-sayo",
-      "historia": "significado-vida",
-      "nombre": "Minakami Sayo",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "sign-tenkawa-kaoruko",
-      "historia": "significado-vida",
-      "nombre": "Tenkawa Kaoruko",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "sign-hanabishi-haruka",
-      "historia": "significado-vida",
-      "nombre": "Hanabishi Haruka",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "sign-shiroko-emiya",
-      "historia": "significado-vida",
-      "nombre": "Shiroko Emiya",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
-      "id": "sign-tomo-itsuki",
-      "historia": "significado-vida",
-      "nombre": "Tomo Itsuki",
-      "titulo": "¿?",
-      "avatar": "",
-      "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
-      "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
-      },
-      "apariciones": [],
-      "opiniones": []
-    },
-    {
+     {
       "id": "sign-matama-akoya",
       "historia": "significado-vida",
       "nombre": "Matama Akoya",
-      "titulo": "¿?",
+      "titulo": "Loco Musica",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica con aspiraciones de idol que usa ondas de sonido como arma al transformarse con una personalidad enérgica, entusiasta y muy cercana a Nemo, con quien comparte una amistad desde la infancia.",
+      "historia_personal": "Empieza como miembro de la facción de Lord Enorme, pero con el tiempo se une a Enormita tras ser derrotada mientras persigue su sueño de brillar sobre un escenario.",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,57 cm",
+        "Cumpleaños": "8 de abril",
+        "Ocupación": "Estudiante, aspirando a idol y villana de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+         {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "sign-nemo-anemo",
       "historia": "significado-vida",
       "nombre": "Nemo Anemo",
-      "titulo": "¿?",
+      "titulo": "Leberblume",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica de pelo celeste, ojos de color morado de carácter algo brusco, aficionada a los videojuegos hasta el punto de pasar noches sin dormir y ser amiga de Matama desde el jardín. ",
+      "historia_personal": "Se unió a enormita por su amiga Matama y obedece a Lord Enorme, pero tras la derrota se une a Utena mientras apoya el sueño de Matama de ser idol. Pese a ser algo ruda con Matama, es muy leal a esta misma que hace todo lo posible por su amiga. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,53",
+        "Cumpleaños": "23 de junio",
+        "Ocupación": "estudiante y villana de Enormita"
       },
-      "apariciones": [],
+      "apariciones": [
+           {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "detr-capitan",
-      "historia": "detras-frialdad",
-      "nombre": "Capitán",
-      "titulo": "¿?",
+      "id": "sign-minakami-sayo",
+      "historia": "significado-vida",
+      "nombre": "Minakami Sayo",
+      "titulo": "Magia Azure",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Es una chica amable, serena, de pelo largo azul claro de tinte verdoso e hija y ayudante de un templo con un fuerte sentido de la justicia que usa magia de agua además de hielo con una espada mágica. ",
+      "historia_personal": "Es la integrante más serena de Tres Magia solo que tras enfrentar repetidas veces a Magia Baiser desarrolla una actitud diferente que le trae problemas y sus compañeras les incomodan. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "15 años",
+        "Altura": "1,64 cm",
+        "Cumpleaños": "1 de septiembre",
+        "Ocupación": "Estudiante y chica magica"
       },
-      "apariciones": [],
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
       "opiniones": []
     },
     {
-      "id": "detr-oshi",
-      "historia": "detras-frialdad",
-      "nombre": "Oshi",
-      "titulo": "¿?",
+      "id": "sign-tenkawa-kaoruko",
+      "historia": "significado-vida",
+      "nombre": "Tenkawa Kaoruko",
+      "titulo": "Magia Sulfur",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Chica rubia de pelo largo con una personalidad algo ruda, poco femenino en sus modales, pero con un buen corazón que oculta tras su facha y tener magia para crear barreras de protección con su magia.",
+      "historia_personal": "A diferencia de sus compañeras al pelear es más ruda de modo que corrige a sus compañeras con comentarios rudos. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,44 cm",
+        "Cumpleaños": "17 de agosto",
+        "Ocupación": "Estudiante y chica magica"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "sign-hanabishi-haruka",
+      "historia": "significado-vida",
+      "nombre": "Hanabishi Haruka",
+      "titulo": "Magia Magenta",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Chica de pelo rosado con coletas de personalidad alegre, sincera y compañera de clase de Utena sin que ninguna sepa la identidad de la otra gracias a una barrera mágica. En su forma de chica mágica tiene un atuendo rosado mientras pelea usando una lanza. ",
+      "historia_personal": "Protege la ciudad con Sayo y Kaoruko con una ingenuidad que a veces las pone en aprietos sim embargo en comparación con sus compañeras, ella es la chica mágica más 'normal'. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,56 cm",
+        "Cumpleaños": "30 de abril",
+        "Ocupación": "Estudiante y chica magica"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
+      "opiniones": []
+    },
+      {
+      "id": "sign-holy",
+      "historia": "significado-vida",
+      "nombre": "Holy Tengeiji",
+      "titulo": "Sister Gigant",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Gran Madre es una mujer alta, ojos turquesa caídos, cabello largo lila y que bajo su párpado izquierdo muestra tres estrellas. Es encargada de una capilla bajo un puente y ser miembro tanto de Enormita como de la facción de Lord Enorme.",
+      "historia_personal": "Se muestra como una aliada al principio sim embargo guarda sus propios planes junto a Venalita, motivo por el que participa en eventos importantes sin que los demás sospechen sus verdaderas intenciones.",
       "datos": {
         "Edad": "¿?",
         "Altura": "¿?",
         "Cumpleaños": "¿?",
         "Ocupación": "¿?"
       },
-      "apariciones": [],
+      "apariciones": [
+           {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "sign-michiko",
+      "historia": "significado-vida",
+      "nombre": "Michiko Tanaka",
+      "titulo": "Lord Enorme",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Tiene cabello castaño corto de ojos amarilla, en su transmagia parece llevar un kimono blanco con una chaqueta azul marino y usa botas y guantes negros.",
+      "historia_personal": "Es la primera líder de Enormita que formo su propia facción llamada Lord’s Legion con el objetivo de dominar el mundo mientras cazaba chicas mágicas en otras ciudad y destruye a quien se le oponen.",
+      "datos": {
+        "Edad": "20 años",
+        "Altura": "1,76",
+        "Cumpleaños": "27 de enero",
+        "Ocupación": "Cajera y villana de enormita"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }
+      ],
+      "opiniones": []
+    },
+      {
+      "id": "sign-transmagia",
+      "historia": "significado-vida",
+      "nombre": "Transmagia",
+      "titulo": "Magia prisma",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Transformación que tiene aspecto de niña de cabello rubio plateado atado en dos coletas y ojos ámbar. Lleva un atuendo colorido con volantes, una cinta en el pelo, guantes largos y botas hasta las rodillas.",
+      "historia_personal": "Aparece cuando usa la estrella de Venalita para salvar a sus compañeras. La transformación debería durar poco, pero a él le cuesta volver a su forma original. Utena queda fascinada con esa niña y por eso el usuario prefiere no usarla y no luchar, pero termina haciéndolo para proteger cuando esta sin opciones. ",
+      "datos": {
+        "Edad": "¿?",
+        "Altura": "1,30 cm",
+        "Cumpleaños": "¿?",
+        "Ocupación": "¿?"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "sign-miyuki-yamazaki",
+      "historia": "significado-vida",
+      "nombre": "Miyuki Yamazaki",
+      "titulo": "Magia time",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Chica rubia de pelo corto con unos ojos de color amarillo. Fue una de las cinco chicas mágicas legendarias de Japón y de rango SS que usa magia de tiempo solo cuando es necesario, pero comúnmente usa magia de naturaleza con una personalidad fría, calculadora y lucha sin piedad sea cual sea su rival. ",
+      "historia_personal": "Antes era alegre, pero cambió tras el accidente de Shizuoka que desde ese dia busca más poder para poder destruir a las criaturas que les otorgan magia ya que en el pasado fui traicionada por una. Dice que a veces hay que sacrificar la seguridad de muchos por el bien mayor. ",
+      "datos": {
+        "Edad": "17 años",
+        "Altura": "1, 52 cm",
+        "Cumpleaños": "9 de abril",
+        "Ocupación": "Estudiante y chica magica"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        },
+         {
+          "titulo": "El camino para ser un Héroe",
+          "url": "https://www.wattpad.com/story/357479697-el-camino-para-ser-un-h%C3%A9roe-tndeku-x-haruka-mahou"
+        }],
+      "opiniones": []
+    },
+    {
+      "id": "sign-tatsumi-yukine",
+      "historia": "significado-vida",
+      "nombre": "Tatsumi Yukine",
+      "titulo": "Ironclad",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Joven noble, amable, tranquilo, y también uno de los pocos hombres. Es compañero de Miyuki quien sigue a cualquier parte y pelea con armadura. ",
+      "historia_personal": "Conoce a Miyuki desde niños, cuando ella era alegre y lo defendía de quienes lo trataban mal. Después del accidente de Shizuoka ella cambió, y él guarda el dolor de no haber podido protegerla. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1,70",
+        "Cumpleaños": "30 de septiembre",
+        "Ocupación": "Estudiante y heroe"
+      },
+      "apariciones": [
+        {
+          "titulo": "El significa de mi vida - Mahou shoujo ni akogarete",
+          "url": "https://www.wattpad.com/story/365306363-el-significa-de-mi-vida-mahou-shoujo-ni-akogarete"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "detr-yoichiro",
+      "historia": "detras-frialdad",
+      "nombre": "Yoichiro Mizuhara",
+      "titulo": "Príncipe del Campo",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Un chico de expresión seria y mirada tan firme que impone respeto a cualquiera que lo mire de frente, un líder callado que casi nunca sonríe y que se ha ganado la admiración de toda la academia con su elegancia en el campo. Tiene fama de ser alguien ejemplar en todo lo que hace, pero detrás de esa seriedad guarda un arrepentimiento que lo tormenta cada día. ",
+      "historia_personal": "En la secundaria era un chico introvertido que prefería la tranquilidad antes que la compañía hasta que alguien muy ruidoso se empeñó en convertirse en su amigo y no se separó más de su lado. Gracias a esa amistad empezó a abrirse al mundo sin darse cuenta, pero un suceso doloroso con su amigo lo marcó para siempre y lo transformó en la persona que todos conocen hoy. Desde entonces se esforzó más que nadie en los estudios y en el fútbol, aunque no tenía ningún talento natural, hasta llegar a ser el capitán que el equipo de la academia Seirei necesitaba…por su amigo Oshi.  ",
+      "datos": {
+        "Edad": "17 años",
+        "Altura": "1,75 cm",
+        "Cumpleaños": "11 de noviembre",
+        "Ocupación": "Estudiante y capitan del equipo Seirei"
+      },
+      "apariciones": [
+         {
+          "titulo": "Detras de esa frialdad - Roshidere Zero",
+          "url": "https://www.wattpad.com/story/388543344-detras-de-esa-frialdad-roshidere-zero"
+        },
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     },
     {
       "id": "detr-masha",
       "historia": "detras-frialdad",
-      "nombre": "Masha",
-      "titulo": "¿?",
+      "nombre": "Maria Mikhailovna Kujou",
+      "titulo": "Masha",
       "avatar": "",
       "arte": "",
-      "descripcion": "¿?",
-      "historia_personal": "",
+      "descripcion": "Una joven amable que trata a las personas amablemente y que le gusta preparar té con mermelada como se acostumbra en Rusia. Tiene una forma de hablar tranquila y reflexiva además de que es muy protectora con su hermana menor, aunque no lo parezca",
+      "historia_personal": "Nació en Rusia y es un año mayor que Alya, creció adaptándose a dos países y a dos culturas lo que la volvió muy sociable. Estudia en la academia Seirei donde es secretaria del consejo estudiantil y ayudando a Alya en el consejo lo mas que puede. ",
       "datos": {
-        "Edad": "¿?",
-        "Altura": "¿?",
-        "Cumpleaños": "¿?",
-        "Ocupación": "¿?"
+        "Edad": "17 años",
+        "Altura": "1,60 cm",
+        "Cumpleaños": "24 de diciembre",
+        "Ocupación": "Estudiante y miembro del consejo estudiantil"
       },
-      "apariciones": [],
+      "apariciones": [
+          {
+          "titulo": "Detras de esa frialdad - Roshidere Zero",
+          "url": "https://www.wattpad.com/story/388543344-detras-de-esa-frialdad-roshidere-zero"
+        },
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
+      "opiniones": []
+    },
+    {
+      "id": "detr-hoshi",
+      "historia": "detras-frialdad",
+      "nombre": "Hoshi Amano",
+      "titulo": "Estrella Fugaz",
+      "avatar": "",
+      "arte": "",
+      "descripcion": "Es un chico escandaloso, impulsivo, lleno de energía que no sabe quedarse callado ni rendirse y contagia ánimo a cualquiera que tenga cerca solo que a veces se le pase la mano.",
+      "historia_personal": "Conoció a su mejor amigo Yoichiro en el primer año de primaria y desde entonces no volvió a dejarlo solo, su mayor sueño es volverse popular y ser admirado como el capitán del club de fútbol. Está perdidamente enamorado de la delegada de su clase, pero ella le inculparía de un accidente, manchando su imagen hasta el punto de querer desaparecer. ",
+      "datos": {
+        "Edad": "15 años",
+        "Altura": "1, 68 cm",
+        "Cumpleaños": "13 de agosto",
+        "Ocupación": "Estudiante"
+      },
+      "apariciones": [
+          {
+          "titulo": "Detras de esa frialdad - Roshidere Zero",
+          "url": "https://www.wattpad.com/story/388543344-detras-de-esa-frialdad-roshidere-zero"
+        },
+        {
+          "titulo": "Mensaje de arrepentimiento",
+          "url": "https://www.wattpad.com/story/378297908-mensaje-de-arrepentimiento-alya-x-yuki-x-tn"
+        }
+      ],
       "opiniones": []
     }
   ]

@@ -135,6 +135,7 @@
         <div class="seg" role="tablist">
           <button class="seg-btn active" id="tab-mapa" role="tab">Mapa</button>
           <button class="seg-btn" id="tab-cron" role="tab">Cronología</button>
+          <button class="seg-btn" id="tab-uni" role="tab">Universo</button>
         </div>
       </div>
 
@@ -146,11 +147,12 @@
             </div>
             <svg class="mv-lines" id="mv-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
             <div id="mv-nodes"></div>
+            <p class="hint mv-tip" id="mv-hint">Toca un mundo para ver de qué trata y con cuáles se conecta.</p>
           </div>
         </div>
 
-        <aside class="mv-panel" id="mv-panel">
-          <p class="hint" id="mv-hint">Toca un mundo para ver de qué trata y con cuáles se conecta.</p>
+        <aside class="mv-panel" id="mv-panel" hidden>
+          <button class="mv-close" id="mv-close" aria-label="Cerrar">&times;</button>
           <div id="mv-info" hidden>
             <h3 id="mv-title"></h3>
             <p class="mv-meta" id="mv-meta"></p>
@@ -166,6 +168,21 @@
       </div>
 
       <ol class="timeline" id="timeline" hidden></ol>
+
+      <section class="uv" id="uv" hidden>
+        <div class="uv-bar">
+          <div class="seg" id="uv-tabs"></div>
+          <p class="mv-gnote" id="uv-nota"></p>
+        </div>
+        <p class="hint uv-empty" id="uv-empty" hidden>Este universo aún no tiene historias. Agrégalas en data/universos.json.</p>
+        <div class="uv-main" id="uv-main">
+          <aside class="uv-side" id="uv-list" aria-label="Historias del universo"></aside>
+          <div class="uv-stage">
+            <div class="uv-center" id="uv-center"></div>
+            <div id="uv-ring"></div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 
